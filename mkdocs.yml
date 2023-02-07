@@ -6,15 +6,19 @@ theme:
     - content.code.copy
     - content.code.annotate
     - navigation.tabs
+    - navigation.top
     # - navigation.footer
   palette: 
+    
     # Palette toggle for light mode
     - scheme: default
+      primary: teal
       toggle:
         icon: material/brightness-7 
         name: Gelapin
     # Palette toggle for dark mode
     - scheme: slate
+      primary: teal
       toggle:
         icon: material/brightness-4
         name: Terangin
@@ -40,6 +44,17 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra:
   generator: false
   social:
@@ -67,6 +82,8 @@ nav:
       - Preface MySql: Technology/Catatan MySql/index.md
       - Rangkuman Muka: Technology/Catatan MySql/01. Rangkuman Muka.md
       - Understanding RDBMS: Technology/Catatan MySql/01. Understanding RDBMS.md
+      - Understanding Data Type: Technology/Catatan MySql/02. Understanding The Data Type.md
+      - Creating and Designing Database: Technology/Catatan MySql/03. Creating and Designing Database.md
   - Deen:
     - Random Notes: Deen/Catatan Bunda/index.md
 
