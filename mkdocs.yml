@@ -6,7 +6,7 @@ theme:
     - content.code.copy
     - content.code.annotate
     - navigation.tabs
-    - navigation.footer
+    # - navigation.footer
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -34,6 +34,12 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 extra:
   generator: false
   social:
@@ -55,11 +61,14 @@ nav:
   - index.md
   - Information Technology:
     - Learn Linux:
-      - Pertama: Technology/Catatan Linux Bible/index.md
+      - Preface Linux: Technology/Catatan Linux Bible/index.md
       - Using The Shell: Technology/Catatan Linux Bible/01. Using the shell.md
     - Learn MySql:
-      - Pertama: Bla bla
-      - Kedua: Bla Bla
+      - Preface MySql: Technology/Catatan MySql/index.md
+      - Rangkuman Muka: Technology/Catatan MySql/01. Rangkuman Muka.md
+      - Understanding RDBMS: Technology/Catatan MySql/01. Understanding RDBMS.md
+  - Deen:
+    - Random Notes: Deen/Catatan Bunda/index.md
 
 
 

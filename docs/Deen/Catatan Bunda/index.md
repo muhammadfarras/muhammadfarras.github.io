@@ -26,13 +26,13 @@ Imam Ibnul Qayyim berkata, '*kalau tidak karena cobaan dan musibah dunia, niscay
 
 
 الله berfirman :
-```
+``` {.shell .no-copy}
 مَآ اَصَابَ مِنْ مُّصِيْبَةٍ فِى الْاَرْضِ وَلَا فِيْٓ اَنْفُسِكُمْ اِلَّا فِيْ كِتٰبٍ مِّنْ قَبْلِ اَنْ نَّبْرَاَهَا ۗاِنَّ ذٰلِكَ عَلَى اللّٰهِ يَسِيْرٌۖ(22)
 
 لِّكَيْلَا تَأْسَوْا عَلٰى مَا فَاتَكُمْ وَلَا تَفْرَحُوْا بِمَآ اٰتٰىكُمْ ۗوَاللّٰهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُوْرٍۙ (23)
 ```
 Artinya :
-```
+```  {.shell .no-copy}
 (22) Setiap bencana yang menimpa di bumi dan yang menimpa dirimu sendiri, semuanya telah tertulis dalam Kitab (Lauh Mahfuzh) sebelum Kami mewujudkannya. Sungguh, yang demikian itu mudah bagi Allah.
 
 (23) Agar kamu tidak bersedih hati terhadap apa yang luput dari kamu, dan jangan pula terlalu gembira terhadap apa yang diberikan-Nya kepadamu. Dan Allah tidak menyukai setiap orang yang sombong dan membanggakan diri.
@@ -40,11 +40,11 @@ Artinya :
 `{Q.S Al Hadid : 22 - 23}`
 
 
-```
+``` {.shell .no-copy}
 مَآ اَصَابَ مِنْ مُّصِيْبَةٍ اِلَّا بِاِذْنِ اللّٰهِ ۗوَمَنْ يُّؤْمِنْۢ بِاللّٰهِ يَهْدِ قَلْبَهٗ ۗوَاللّٰهُ بِكُلِّ شَيْءٍ عَلِيْمٌ(11)
 ```
 Artinya :
-```
+``` {.shell .no-copy}
 (11) Tidak ada sesuatu musibah yang menimpa (seseorang), kecuali dengan izin Allah; dan barangsiapa beriman kepada Allah, niscaya Allah akan memberi petunjuk kepada hatinya. Dan Allah Maha Mengetahui segala sesuatu.
 ```
 `{Q.S At-Taghobun:11}`
@@ -58,11 +58,11 @@ Rasulullah ﷺ bersabda :
 
 ### Adab pada الله
 
-```
+``` {.shell .no-copy}
 وَاِذَا مَرِضْتُ فَهُوَ يَشْفِيْنِ ۙ(80)
 ```
 Artinya :
-```
+``` {.shell .no-copy}
 (80) dan apabila aku sakit, Dialah yang menyembuhkan aku,
 ```
 `{Q.S Asy-Syu'ara'}`
@@ -71,6 +71,7 @@ Yang memberikan sakit hakikatnya adalah الله, namun pada ayat ini tidak dise
 
 ### Penjelasan dari seorang *tabi'in* apabila dia terkena musibah
 Adalah Syuraih Al-Qodi, Ketika ia tertimpa musibah, memuji الله empat kali :
+
 1. Memuji الله karena tidak tertimpa yang lebih besar.
 2. Memuji الله karena dikaruniai kesabaraan saat ditimpa musibah.
 3. Memuji الله karena dapat mengucapkan istirja.
@@ -84,12 +85,5 @@ Adalah Syuraih Al-Qodi, Ketika ia tertimpa musibah, memuji الله empat kali :
 
 ___
 Refrensi
+
 * [Wabah & Penyakit sebagai ujian dari الله‎](https://www.youtube.com/watch?v=nGxlSrd7ZTU)
-
-
-
-
-
-
-
-
