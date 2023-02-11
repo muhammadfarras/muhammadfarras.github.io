@@ -7,6 +7,9 @@ theme:
     - content.code.annotate
     - navigation.tabs
     - navigation.top
+    - toc.follow
+    - toc.integrate
+    - header.autohide
     # - navigation.footer
   palette: 
     
@@ -38,6 +41,8 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
   - footnotes
   - attr_list
   - md_in_html
@@ -87,6 +92,7 @@ nav:
       - Importing and Exporting Data: Technology/Catatan MySql/04. Importing and Exporting Data.md
       - Querying a Single Table: Technology/Catatan MySql/05. Querying a Single Table.md
       - Querying Multiple Tables: Technology/Catatan MySql/06. Querying Multiple Tables.md
+      - Modifiying data and Tabel Structure : Technology/Catatan MySql/07. Modifiying data and Tabel Structure.md
       
   - Deen:
     - Random Notes: Deen/Catatan Bunda/index.md
