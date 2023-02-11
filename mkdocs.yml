@@ -79,6 +79,10 @@ copyright: Catatan untuk, Muhammad Faris Ma'ruf & Nu'man Noah Ma'ruf 2023
 
 nav:
   - index.md
+  - Programming Language: 
+    - Learn Python:
+      - Preface Python: Programming Language/Python/index.md
+      - Data Types: Programming Language/Python/01. Data Types.md
   - Information Technology:
     - Learn Linux:
       - Preface Linux: Technology/Catatan Linux Bible/index.md

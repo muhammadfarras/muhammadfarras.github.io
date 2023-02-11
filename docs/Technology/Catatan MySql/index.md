@@ -18,7 +18,7 @@ Sejatinya, nasihat adalah bahan bakar untuk kita terus lebih baik. Maka dari itu
 
 Dari Anas *radhiyallahu ‘anhu*, ia berkata, “Tidaklah sempurna iman seseorang di antara kalian sampai ia mencintai saudaranya sebagaimana ia mencintai dirinya sendiri.”  (Muttafaqun ‘alaih. HR. Bukhari no. 13 dan Muslim no. 45)[^1]
 
-## Resources
+## Books
 ![Learn SQL Database Programming by Josephine Bush](aset/0.1 books.png)
 
 Sumber buku berjudul **Learn SQL Database Programming** yang ditulis oleh *Josephine Bush* dan dipublish oleh Packt Publishing.
@@ -34,7 +34,7 @@ Buku ini memliki 14 Chapter dan dibagi menjadi 5 sesi berikut;
 
 
 ## Why this books ?
-Oke, pertama, saya sangat suka dengan kebanyakan struktur serta bahasa dari buku yang diterbitkan Packt (Walaupun terkadang tidak semuanya), sehingga mudah untuk dipahami dan tidak lompat sana dan lompat sini dari setiap chapter, terususun secara heirarki.
+Oke, pertama, saya sangat suka dengan kebanyakan struktur serta bahasa dari buku yang diterbitkan Packt (Walaupun terkadang tidak semuanya), sehingga mudah untuk dipahami dan tidak lompat sana dan lompat sini dari setiap chapter, terususun secara rapih.
 
 Termasuk dari buku ini, penjelasan dari penulis sangat detail ke tekhnis dengan bahasa yang mudah serta dilengkapi dengan contoh dan output dari setiap query yang dipampang pada buku ini. Selait itu, buku ini juga menyediakan resouce berupa query-query yang ada pada buku ini serta disediakan juga data untuk berlatih.
 
