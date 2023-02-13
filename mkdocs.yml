@@ -83,6 +83,7 @@ nav:
     - Learn Python:
       - Preface Python: Programming Language/Python/index.md
       - Data Types: Programming Language/Python/01. Data Types.md
+      - Conditional and Iteration: Programming Language/Python/02. Conditional and Iteration.md
   - Information Technology:
     - Learn Linux:
       - Preface Linux: Technology/Catatan Linux Bible/index.md
