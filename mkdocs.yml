@@ -10,7 +10,7 @@ theme:
     - toc.follow
     - toc.integrate
     - header.autohide
-    # - navigation.footer
+    - navigation.footer
   palette: 
     
     # Palette toggle for light mode
@@ -84,6 +84,7 @@ nav:
       - Preface Python: Programming Language/Python/index.md
       - Data Types: Programming Language/Python/01. Data Types.md
       - Conditional and Iteration: Programming Language/Python/02. Conditional and Iteration.md
+      - Function Building and Block of Code : Programming Language/Python/03. Function Building and Block of Code.md
   - Information Technology:
     - Learn Linux:
       - Preface Linux: Technology/Catatan Linux Bible/index.md
