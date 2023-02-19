@@ -85,6 +85,7 @@ nav:
       - Data Types: Programming Language/Python/01. Data Types.md
       - Conditional and Iteration: Programming Language/Python/02. Conditional and Iteration.md
       - Function Building and Block of Code : Programming Language/Python/03. Function Building and Block of Code.md
+      - Comprehension and Generators : Programming Language/Python/04. Comprehension and Generators.md
   - Information Technology:
     - Learn Linux:
       - Preface Linux: Technology/Catatan Linux Bible/index.md
