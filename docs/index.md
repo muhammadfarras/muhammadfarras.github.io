@@ -20,7 +20,10 @@ hide:
 
 :   *   [Linux](Technology/Catatan%20Linux%20Bible/index.md)
 
+`Other`
+
+:   *   [System Analys](Technology/Catatan%20System%20Analys/index.md)  
+
 `Agama`
 
-:   *   [Wabah & Penyakit Ujian dari Allah](Deen/Catatan%20Bunda/index.md)
-
+:   *   [Wabah & Penyakit Ujian dari Allah](Deen/Catatan%20Bunda/index.md)s

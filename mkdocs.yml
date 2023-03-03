@@ -10,7 +10,7 @@ theme:
     - toc.follow
     - toc.integrate
     - header.autohide
-    - navigation.footer
+    - navigation.footers
   palette: 
     
     # Palette toggle for light mode
@@ -67,6 +67,9 @@ extra:
     link: https://github.com/muhammadfarras
     name: Muhammad Farras Ma'ruf's GitHub
 copyright: Catatan untuk, Muhammad Faris Ma'ruf & Nu'man Noah Ma'ruf 2023
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
 
 
@@ -85,6 +88,9 @@ nav:
       - Function Building and Block of Code : Programming Language/Python/03. Function Building and Block of Code.md
       - Comprehension and Generators : Programming Language/Python/04. Comprehension and Generators.md
   - Information Technology:
+    - Learn System Analyst:
+      - Preface SA : Technology/Catatan System Analys/index.md
+      - The System Analyst and System Development: Technology/Catatan System Analys/1. The System Analyst and System Development.md
     - Learn Linux:
       - Preface Linux: Technology/Catatan Linux Bible/index.md
       - Using The Shell: Technology/Catatan Linux Bible/01. Using the shell.md
