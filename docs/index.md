@@ -20,6 +20,10 @@ hide:
 
 :   *   [Linux](Technology/Catatan%20Linux%20Bible/index.md)
 
+
+`IOT`
+:   *   [Arduino](Technology/Catatan%20Arduino/index.md)
+
 `Other`
 
 :   *   [System Analys](Technology/Catatan%20System%20Analys/index.md)  
