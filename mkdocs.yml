@@ -87,6 +87,7 @@ nav:
       - Conditional and Iteration: Programming Language/Python/02. Conditional and Iteration.md
       - Function Building and Block of Code : Programming Language/Python/03. Function Building and Block of Code.md
       - Comprehension and Generators : Programming Language/Python/04. Comprehension and Generators.md
+      - OPP,  Decorator, and Iterators : Programming Language/Python/05. OPP,  Decorator, and Iterators.md
   - Information Technology:
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md
@@ -97,9 +98,18 @@ nav:
       - Preface SA : Technology/Catatan System Analys/index.md
       - The System Analyst and System Development: Technology/Catatan System Analys/1. The System Analyst and System Development.md
     - Learn Linux:
-      - Preface Linux: Technology/Catatan Linux Bible/index.md
-      - Using The Shell: Technology/Catatan Linux Bible/01. Using the shell.md
-      - File system: Technology/Catatan Linux Bible/02. File system.md
+      - Linux Bible:
+        - Preface Linux: Technology/Catatan Linux Bible/index.md
+        - Using The Shell: Technology/Catatan Linux Bible/01. Using the shell.md
+        - File system: Technology/Catatan Linux Bible/02. File system.md
+        - Additional note: Technology/Catatan Linux Bible/99. Additional notes.md
+      - Fundamental Linux | HTB:
+        - Filter Content: Technology/Catatan Linux HTB/01. Filtering content.md
+        - Regular Expression: Technology/Catatan Linux HTB/02. Regular expression.md
+        - Permission Management: Technology/Catatan Linux HTB/03. Permission management.md
+        - User Management: Technology/Catatan Linux HTB/04. User management.md
+        - Service and Process Management: Technology/Catatan Linux HTB/05.Service and process management.md
+        - Task  Scheduling : Technology/Catatan Linux HTB/06. Task  scheduling.md
     - Learn MySql:
       - Preface MySql: Technology/Catatan MySql/index.md
       - Rangkuman Muka: Technology/Catatan MySql/01. Rangkuman Muka.md
