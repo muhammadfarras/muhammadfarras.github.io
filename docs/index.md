@@ -19,6 +19,7 @@ hide:
 `UNIX`
 
 :   *   [Linux](Technology/Catatan%20Linux%20Bible/index.md)
+    *   [Linux | Hack The Box](Technology/Catatan%20Linux%20HTB/index.md)
 
 
 `IOT`

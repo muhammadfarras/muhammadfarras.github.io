@@ -104,12 +104,15 @@ nav:
         - File system: Technology/Catatan Linux Bible/02. File system.md
         - Additional note: Technology/Catatan Linux Bible/99. Additional notes.md
       - Fundamental Linux | HTB:
+        - preface Linux HTB: Technology/Catatan Linux HTB/index.md
         - Filter Content: Technology/Catatan Linux HTB/01. Filtering content.md
         - Regular Expression: Technology/Catatan Linux HTB/02. Regular expression.md
         - Permission Management: Technology/Catatan Linux HTB/03. Permission management.md
         - User Management: Technology/Catatan Linux HTB/04. User management.md
         - Service and Process Management: Technology/Catatan Linux HTB/05.Service and process management.md
         - Task  Scheduling : Technology/Catatan Linux HTB/06. Task  scheduling.md
+        - Network Service : Technology/Catatan Linux HTB/07. Network service.md
+        - Additional note: Technology/Catatan Linux HTB/99. Additional notes.md
     - Learn MySql:
       - Preface MySql: Technology/Catatan MySql/index.md
       - Rangkuman Muka: Technology/Catatan MySql/01. Rangkuman Muka.md
