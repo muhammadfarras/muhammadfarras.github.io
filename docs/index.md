@@ -19,8 +19,11 @@ hide:
 `UNIX`
 
 :   *   [Linux](Technology/Catatan%20Linux%20Bible/index.md)
-    *   [Linux | Hack The Box](Hack%20The%20Box/Catatan%20Linux%20HTB/index.md)
 
+
+`Hack The Box`
+:   *   [Linux | Hack The Box](Hack%20The%20Box/Catatan%20Linux%20HTB/index.md)
+    *   [Introduction to Networking](Hack%20The%20Box/Introduction%20to%20Networking/01.%20Network%20Structure.md)
 
 `IOT`
 :   *   [Arduino](Technology/Catatan%20Arduino/index.md)
