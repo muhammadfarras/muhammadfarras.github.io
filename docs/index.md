@@ -24,6 +24,7 @@ hide:
 `Hack The Box`
 :   *   [Linux | Hack The Box](Hack%20The%20Box/Catatan%20Linux%20HTB/index.md)
     *   [Introduction to Networking](Hack%20The%20Box/Introduction%20to%20Networking/01.%20Network%20Structure.md)
+    *   [Sql Injection](Hack%20The%20Box/Sql%20Injection/01.%20Index.md)
 
 `IOT`
 :   *   [Arduino](Technology/Catatan%20Arduino/index.md)
