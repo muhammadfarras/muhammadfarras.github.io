@@ -14,7 +14,7 @@ hide:
 
 `Databases`
 
-:    *  [MySql](Technology/Catatan%20MySql/index.md)
+:    *  [MySql](DBMS/Catatan%20MySql/index.md)
 
 `UNIX`
 
@@ -37,6 +37,6 @@ hide:
 
 :   *   [System Analys](Technology/Catatan%20System%20Analys/index.md)  
 
-`Agama`
+<!-- `Agama`
 
-:   *   [Wabah & Penyakit Ujian dari Allah](Deen/Catatan%20Bunda/index.md)s
+:   *   [Wabah & Penyakit Ujian dari Allah](Deen/Catatan%20Bunda/index.md)s -->

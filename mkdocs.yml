@@ -99,16 +99,6 @@ nav:
         - Using The Shell: Technology/Catatan Linux Bible/01. Using the shell.md
         - File system: Technology/Catatan Linux Bible/02. File system.md
         # - Additional note: Technology/Catatan Linux Bible/99. Additional notes.md
-    - Learn MySql:
-      - Preface MySql: Technology/Catatan MySql/index.md
-      - Rangkuman Muka: Technology/Catatan MySql/01. Rangkuman Muka.md
-      - Understanding RDBMS: Technology/Catatan MySql/01. Understanding RDBMS.md
-      - Understanding Data Type: Technology/Catatan MySql/02. Understanding The Data Type.md
-      - Creating and Designing Database: Technology/Catatan MySql/03. Creating and Designing Database.md
-      - Importing and Exporting Data: Technology/Catatan MySql/04. Importing and Exporting Data.md
-      - Querying a Single Table: Technology/Catatan MySql/05. Querying a Single Table.md
-      - Querying Multiple Tables: Technology/Catatan MySql/06. Querying Multiple Tables.md
-      - Modifiying data and Tabel Structure : Technology/Catatan MySql/07. Modifiying data and Tabel Structure.md
   - Hack The Box:
     - Linux:
       - preface Linux HTB: Hack The Box/Catatan Linux HTB/index.md
@@ -138,11 +128,17 @@ nav:
     - Tools:
       - reconainsasnce:
         - Gitfive: Hacking/Tools/Gitfive/01. Index.md
-  
-  - Deen:
-    - Random Notes: Deen/Catatan Bunda/index.md
 
-
-
+  - DBMS:
+    - Learn MySql:
+      - Preface MySql: DBMS/Catatan MySql/index.md
+      - Rangkuman Muka: DBMS/Catatan MySql/01. Rangkuman Muka.md
+      - Understanding RDBMS: DBMS/Catatan MySql/01. Understanding RDBMS.md
+      - Understanding Data Type: DBMS/Catatan MySql/02. Understanding The Data Type.md
+      - Creating and Designing Database: DBMS/Catatan MySql/03. Creating and Designing Database.md
+      - Importing and Exporting Data: DBMS/Catatan MySql/04. Importing and Exporting Data.md
+      - Querying a Single Table: DBMS/Catatan MySql/05. Querying a Single Table.md
+      - Querying Multiple Tables: DBMS/Catatan MySql/06. Querying Multiple Tables.md
+      - Modifiying data and Tabel Structure : DBMS/Catatan MySql/07. Modifiying data and Tabel Structure.md
 
 

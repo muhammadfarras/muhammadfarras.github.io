@@ -66,7 +66,7 @@ def add_to_database(connection_string):
 
 That is all fine and well; every time I `#!python .send()` my data it'll insert a row.
 
-But what if my database is [transactional](../../Technology/Catatan%20MySql/07.%20Modifiying%20data%20and%20Tabel%20Structure.md#using-transactions-to-save-or-revert-changes)? How do I signal this generator when to commit the data to the database? And when to abort the transaction? Moreover, it is holding an open connection to the database, maybe I sometimes want it to close that connection to reclaim resources.
+But what if my database is [transactional](../../DBMS/Catatan%20MySql/07.%20Modifiying%20data%20and%20Tabel%20Structure.md#using-transactions-to-save-or-revert-changes)? How do I signal this generator when to commit the data to the database? And when to abort the transaction? Moreover, it is holding an open connection to the database, maybe I sometimes want it to close that connection to reclaim resources.
 
 This is where the `#!python .throw()` method comes in; with `#!python .throw()` I can raise exceptions in that method to signal certain circumstances:
 
