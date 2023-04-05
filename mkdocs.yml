@@ -132,6 +132,7 @@ nav:
       - Union Clause : Hack The Box/Sql Injection/04. Union clause.md
       - Union Injection : Hack The Box/Sql Injection/05. Union Injection.md
       - Exploitation : Hack The Box/Sql Injection/06. Exploitation.md
+      - Mitigation : Hack The Box/Sql Injection/07. Mitigation.md
   - Hacking:
     - Preface Hacking : Hacking/Index.md
     - Tools:
