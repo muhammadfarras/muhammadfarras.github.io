@@ -1,6 +1,6 @@
 site_name: Our Notes
 # site_url: http://localhost:8000/
-site_url: https://github.com/muhammadfarras/kertas-penafs
+site_url: https://github.com/muhammadfarras/kertas-pena
 theme:
   name: material
   features:
@@ -132,6 +132,12 @@ nav:
       - Union Clause : Hack The Box/Sql Injection/04. Union clause.md
       - Union Injection : Hack The Box/Sql Injection/05. Union Injection.md
       - Exploitation : Hack The Box/Sql Injection/06. Exploitation.md
+  - Hacking:
+    - Preface Hacking : Hacking/Index.md
+    - Tools:
+      - reconainsasnce:
+        - Gitfive: Hacking/Tools/Gitfive/01. Index.md
+  
   - Deen:
     - Random Notes: Deen/Catatan Bunda/index.md
 
