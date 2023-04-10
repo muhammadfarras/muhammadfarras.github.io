@@ -128,6 +128,15 @@ nav:
     - Tools:
       - reconainsasnce:
         - Gitfive: Hacking/Tools/Gitfive/01. Index.md
+    - Books/Things:
+      - Python Ethical Hacking From Scratch:
+        - Preface : Hacking/Python Etichal Hacking from Scratch/01. Index.md
+        - Type of Hacker : Hacking/Python Etichal Hacking from Scratch/02. Type of hacker.md
+        - Career in Cyber Security : Hacking/Python Etichal Hacking from Scratch/03. Career in cyber security.md
+        - Type of Attacks : Hacking/Python Etichal Hacking from Scratch/04. Type of attacks.md
+        - Protection : Hacking/Python Etichal Hacking from Scratch/05. Protection.md
+        - Network Scanning : Hacking/Python Etichal Hacking from Scratch/06. Network scanning.md
+        - Introduction to Scapy : Hacking/Python Etichal Hacking from Scratch/07. Introduction to scapy.md
 
   - DBMS:
     - Learn MySql:
@@ -141,4 +150,11 @@ nav:
       - Querying Multiple Tables: DBMS/Catatan MySql/06. Querying Multiple Tables.md
       - Modifiying data and Tabel Structure : DBMS/Catatan MySql/07. Modifiying data and Tabel Structure.md
 
-
+  - Data Scient:
+    - Preface All About Data : All Bout Data/Index.md
+    - Learn Data Wrangling:
+      - Preface Data wrangling : All Bout Data/Data Wrangling/01. Index.md
+      - Built-in Data Structure : All Bout Data/Data Wrangling/03. Built-in Data Structure.md
+      - Numpy Basic:
+        - Numpy Ndarray : All Bout Data/Data Wrangling/04. Numpy Ndarray.md
+        - Pseudorandom Number Generation : All Bout Data/Data Wrangling/04.2 pseudorandom number generation.md
