@@ -12,9 +12,11 @@ hide:
 
 :    * [Python Programming Language](Programming%20Language/Python/index.md)
 
-`Databases`
+`About the Data`
 
 :    *  [MySql](DBMS/Catatan%20MySql/index.md)
+:    *  [Pandas, Data Wrangling](All%20Bout%20Data/Data%20Wrangling/01.%20Index.md)
+
 
 `UNIX`
 

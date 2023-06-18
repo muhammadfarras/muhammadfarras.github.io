@@ -84,6 +84,8 @@ nav:
       - Function Building and Block of Code : Programming Language/Python/03. Function Building and Block of Code.md
       - Comprehension and Generators : Programming Language/Python/04. Comprehension and Generators.md
       - OPP,  Decorator, and Iterators : Programming Language/Python/05. OPP,  Decorator, and Iterators.md
+      - Exception and Context Manager : Programming Language/Python/06. Exception and context manager.md
+      - Files and Data Persistance : Programming Language/Python//07. Files and data persistance.md
   - Information Technology:
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md
