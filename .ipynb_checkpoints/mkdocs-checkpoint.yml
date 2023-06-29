@@ -1,0 +1,162 @@
+site_name: Our Notes
+# site_url: http://localhost:8000/
+site_url: https://github.com/muhammadfarras/kertas-pena
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.top
+    - toc.follow
+    - toc.integrate
+    - header.autohide
+    - navigation.footers
+  palette: 
+    
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7 
+        name: Gelapin
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Terangin
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra:
+  generator: true
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/muhammadfarras
+    name: Muhammad Farras Ma'ruf's GitHub
+copyright: Catatan untuk, Muhammad Faris Ma'ruf & Nu'man Noah Ma'ruf 2023
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
+
+
+nav:
+  - index.md
+  - Programming Language: 
+    - Learn Python:
+      - Preface Python: Programming Language/Python/index.md
+      - Data Types: Programming Language/Python/01. Data Types.md
+      - Conditional and Iteration: Programming Language/Python/02. Conditional and Iteration.md
+      - Function Building and Block of Code : Programming Language/Python/03. Function Building and Block of Code.md
+      - Comprehension and Generators : Programming Language/Python/04. Comprehension and Generators.md
+      - OPP,  Decorator, and Iterators : Programming Language/Python/05. OPP,  Decorator, and Iterators.md
+      - Exception and Context Manager : Programming Language/Python/06. Exception and context manager.md
+      - Files and Data Persistance : Programming Language/Python//07. Files and data persistance.md
+  - Information Technology:
+    - Learn Arduino:
+      - Preface Arduino : Technology/Catatan Arduino/index.md
+      - Introduce to Arduino : Technology/Catatan Arduino/01. What is arduino.md
+      - Getting physical with arduino : Technology/Catatan Arduino/02. Getting physical with arduino.md
+      - "Basic Sketches: input, output and communication" : "Technology/Catatan Arduino/03. Basic Sketches: input, output and communication..md"
+    - Learn System Analyst:
+      - Preface SA : Technology/Catatan System Analys/index.md
+      - The System Analyst and System Development: Technology/Catatan System Analys/1. The System Analyst and System Development.md
+    - Learn Linux:
+      - Linux Bible:
+        - Preface Linux: Technology/Catatan Linux Bible/index.md
+        - Using The Shell: Technology/Catatan Linux Bible/01. Using the shell.md
+        - File system: Technology/Catatan Linux Bible/02. File system.md
+        # - Additional note: Technology/Catatan Linux Bible/99. Additional notes.md
+  - Hack The Box:
+    - Linux:
+      - preface Linux HTB: Hack The Box/Catatan Linux HTB/index.md
+      - Filter Content: Hack The Box/Catatan Linux HTB/01. Filtering content.md
+      - Regular Expression: Hack The Box/Catatan Linux HTB/02. Regular expression.md
+      - Permission Management: Hack The Box/Catatan Linux HTB/03. Permission management.md
+      - User Management: Hack The Box/Catatan Linux HTB/04. User management.md
+      - Service and Process Management: Hack The Box/Catatan Linux HTB/05.Service and process management.md
+      - Task  Scheduling : Hack The Box/Catatan Linux HTB/06. Task  scheduling.md
+      - Network Service : Hack The Box/Catatan Linux HTB/07. Network service.md
+      - Network Configuration: Hack The Box/Catatan Linux HTB/08. Network Configurations.md
+      - Additional note: Hack The Box/Catatan Linux HTB/99. Additional notes.md
+    - Network:
+      - Introduction To Networking: Hack The Box/Introduction to Networking/01. Network Structure.md
+      - Networking Workflow: Hack The Box/Introduction to Networking/02. Networking workflow.md
+      - Addressing: Hack The Box/Introduction to Networking/03. Addressing.md
+    - "Sql Injection":
+      - Preface Sql Injection : Hack The Box/Sql Injection/01. Index.md
+      - Subverting Query Logic : Hack The Box/Sql Injection/02. Subverting query logic.md
+      - Using Comments : Hack The Box/Sql Injection/03. Using comments.md
+      - Union Clause : Hack The Box/Sql Injection/04. Union clause.md
+      - Union Injection : Hack The Box/Sql Injection/05. Union Injection.md
+      - Exploitation : Hack The Box/Sql Injection/06. Exploitation.md
+      - Mitigation : Hack The Box/Sql Injection/07. Mitigation.md
+  - Hacking:
+    - Preface Hacking : Hacking/Index.md
+    - Tools:
+      - reconainsasnce:
+        - Gitfive: Hacking/Tools/Gitfive/01. Index.md
+    - Books/Things:
+      - Python Ethical Hacking From Scratch:
+        - Preface : Hacking/Python Etichal Hacking from Scratch/01. Index.md
+        - Type of Hacker : Hacking/Python Etichal Hacking from Scratch/02. Type of hacker.md
+        - Career in Cyber Security : Hacking/Python Etichal Hacking from Scratch/03. Career in cyber security.md
+        - Type of Attacks : Hacking/Python Etichal Hacking from Scratch/04. Type of attacks.md
+        - Protection : Hacking/Python Etichal Hacking from Scratch/05. Protection.md
+        - Network Scanning : Hacking/Python Etichal Hacking from Scratch/06. Network scanning.md
+        - Introduction to Scapy : Hacking/Python Etichal Hacking from Scratch/07. Introduction to scapy.md
+
+  - DBMS:
+    - Learn MySql:
+      - Preface MySql: DBMS/Catatan MySql/index.md
+      - Rangkuman Muka: DBMS/Catatan MySql/01. Rangkuman Muka.md
+      - Understanding RDBMS: DBMS/Catatan MySql/01. Understanding RDBMS.md
+      - Understanding Data Type: DBMS/Catatan MySql/02. Understanding The Data Type.md
+      - Creating and Designing Database: DBMS/Catatan MySql/03. Creating and Designing Database.md
+      - Importing and Exporting Data: DBMS/Catatan MySql/04. Importing and Exporting Data.md
+      - Querying a Single Table: DBMS/Catatan MySql/05. Querying a Single Table.md
+      - Querying Multiple Tables: DBMS/Catatan MySql/06. Querying Multiple Tables.md
+      - Modifiying data and Tabel Structure : DBMS/Catatan MySql/07. Modifiying data and Tabel Structure.md
+
+  - Data Scient:
+    - Preface All About Data : All Bout Data/Index.md
+    - Learn Data Wrangling:
+      - Preface Data wrangling : All Bout Data/Data Wrangling/01. Index.md
+      - Built-in Data Structure : All Bout Data/Data Wrangling/03. Built-in Data Structure.md
+      - Numpy Basic:
+        - Numpy Ndarray : All Bout Data/Data Wrangling/04. Numpy Ndarray.md
+        - Pseudorandom Number Generation : All Bout Data/Data Wrangling/04.2 pseudorandom number generation.md
