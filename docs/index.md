@@ -21,6 +21,7 @@ hide:
 `About the Data`
 
 :    *  [MySql](DBMS/Catatan%20MySql/index.md) :writing_hand_tone1:
+:    *  [Microsoft SQL](DBMS/Catatan%20MSSQL/additional-note.md) :writing_hand_tone1:
 :    *  [Pandas, Data Wrangling](All%20Bout%20Data/Data%20Wrangling/01.%20Index.md) :writing_hand_tone1:
 
 

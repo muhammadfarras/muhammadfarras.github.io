@@ -86,6 +86,12 @@ nav:
       - OPP,  Decorator, and Iterators : Programming Language/Python/05. OPP,  Decorator, and Iterators.md
       - Exception and Context Manager : Programming Language/Python/06. Exception and context manager.md
       - Files and Data Persistance : Programming Language/Python//07. Files and data persistance.md
+    - Learn Java:
+      - Preface Java : Programming Language/Java/index.md
+      - Fundamental Programming Structure in Java:
+        - Strings : Programming Language/Java/01. Strings.md
+        - Input and Output : Programming Language/Java/02. Input and Output.md
+        - Control and Flow : Programming Language/Java/03. Control Flow.md
   - Information Technology:
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md
@@ -151,6 +157,8 @@ nav:
       - Querying a Single Table: DBMS/Catatan MySql/05. Querying a Single Table.md
       - Querying Multiple Tables: DBMS/Catatan MySql/06. Querying Multiple Tables.md
       - Modifiying data and Tabel Structure : DBMS/Catatan MySql/07. Modifiying data and Tabel Structure.md
+    - Learn MSSQL:
+      - Preface MSSQL : DBMS/Catatan MSSQL/additional-note.md
 
   - Data Scient:
     - Preface All About Data : All Bout Data/Index.md
