@@ -17,6 +17,7 @@ hide:
 `Programming Language`
 
 :    * [Python Programming Language](Programming%20Language/Python/index.md) :writing_hand_tone1:
+:    * [Java Programming Language](Programming%20Language/Java/index.md) :writing_hand_tone1:
 
 `About the Data`
 
