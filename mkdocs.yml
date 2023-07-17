@@ -98,7 +98,7 @@ nav:
       - Preface Arduino : Technology/Catatan Arduino/index.md
       - Introduce to Arduino : Technology/Catatan Arduino/01. What is arduino.md
       - Getting physical with arduino : Technology/Catatan Arduino/02. Getting physical with arduino.md
-      - "Basic Sketches: input, output and communication" : "Technology/Catatan Arduino/03. Basic Sketches: input, output and communication..md"
+      - Basic Sketches-input, output and communication : "Technology/Catatan Arduino/03. Basic Sketches-input output and communication.md"
     - Learn System Analyst:
       - Preface SA : Technology/Catatan System Analys/index.md
       - The System Analyst and System Development: Technology/Catatan System Analys/1. The System Analyst and System Development.md
