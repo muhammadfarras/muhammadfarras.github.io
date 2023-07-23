@@ -1,4 +1,4 @@
-_Bismillah_, dengan menyebut nama Allah. Pada catatan ini akan berisi bagaimana membuat sebuah web menggunakan Framework _Spring Boot_ menggunakan bahasa pemprograman [Java](../Programming%20Language/Java/01.%20Strings.md).
+_Bismillah_, dengan menyebut nama Allah. Pada catatan ini akan berisi bagaimana membuat sebuah web menggunakan Framework _Spring Boot_ menggunakan bahasa pemprograman [Java](../../Programming%20Language/Java/01.%20Strings.md).
 
 
 !!! info
