@@ -76,6 +76,10 @@ plugins:
 
 nav:
   - index.md
+  - Deen:
+    - Preaface : Deen/index.md
+    - 15 Juni 2021 : Deen/02.15062021.md
+    - 23 Juli 2023 : Deen/01.23072023.md
   - Programming Language: 
     - Learn Python:
       - Preface Python: Programming Language/Python/index.md
@@ -160,6 +164,12 @@ nav:
       - Modifiying data and Tabel Structure : DBMS/Catatan MySql/07. Modifiying data and Tabel Structure.md
     - Learn MSSQL:
       - Preface MSSQL : DBMS/Catatan MSSQL/additional-note.md
+
+  - Framework:
+    - Learn Spring Boot:
+      - Preaface Spring Boot: Web Framework/Spring Boot/index.md
+      - Core Feature: Web Framework/Spring Boot/01. core feature.md
+      - Creating Web Application Using Spring Boot: Web Framework/Spring Boot/02. creating use spring boot.md
 
   - Data Scient:
     - Preface All About Data : All Bout Data/Index.md
