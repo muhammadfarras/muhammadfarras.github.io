@@ -170,6 +170,7 @@ nav:
       - Preaface Spring Boot: Web Framework/Spring Boot/index.md
       - Core Feature: Web Framework/Spring Boot/01. core feature.md
       - Creating Web Application Using Spring Boot: Web Framework/Spring Boot/02. creating use spring boot.md
+      - Querying Data with Spring Boot: Web Framework/Spring Boot/03. querying data with spring boot.md
 
   - Data Scient:
     - Preface All About Data : All Bout Data/Index.md
