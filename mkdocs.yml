@@ -98,6 +98,16 @@ nav:
         - Control and Flow : Programming Language/Java/03. Control Flow.md
         - Big Numbers : Programming Language/Java/04. Big Numbers.md
         - Arrays : Programming Language/Java/05. Arrays.md
+      - Objects and Classes :
+        - Introduction to Object-Oriented Programming : Programming Language/Java/06. Introduction to Object-Oriented Programming.md
+        - Using Predefinedd Class : Programming Language/Java/07. Using Predefined Class.md
+        - Defining Your Own Class : Programming Language/Java/08. Defining Your Own Class.md
+        - Static Field and Method : Programming Language/Java/09. Static Field and Method.md
+        - Method Parameters : Programming Language/Java/10. Method Parameters.md
+        - Object Construction : Programming Language/Java/11. Object Construction.md
+        - Records : Programming Language/Java/12. Records.md
+      - Inheritance :
+        - Classes, Superclasses, and Subclasses : Programming Language/Java/13. Classes, Superclasses, and Subclasses.md
   - Information Technology:
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md
