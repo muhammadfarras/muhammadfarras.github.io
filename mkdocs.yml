@@ -108,6 +108,7 @@ nav:
         - Records : Programming Language/Java/12. Records.md
       - Inheritance :
         - Classes, Superclasses, and Subclasses : Programming Language/Java/13. Classes, Superclasses, and Subclasses.md
+        - Object the Cosmic Superclass : Programming Language/Java/14. Object the Cosmic Superclass.md
   - Information Technology:
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md
@@ -182,6 +183,7 @@ nav:
       - Core Feature: Web Framework/Spring Boot/01. core feature.md
       - Creating Web Application Using Spring Boot: Web Framework/Spring Boot/02. creating use spring boot.md
       - Querying Data with Spring Boot: Web Framework/Spring Boot/03. querying data with spring boot.md
+      - Securing Application With SpringBoot : Web Framework/Spring Boot/04. Securing Application With SpringBoot.md
 
   - Data Scient:
     - Preface All About Data : All Bout Data/Index.md
