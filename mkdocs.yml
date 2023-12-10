@@ -123,6 +123,8 @@ nav:
         - Preface Linux: Technology/Catatan Linux Bible/index.md
         - Using The Shell: Technology/Catatan Linux Bible/01. Using the shell.md
         - File system: Technology/Catatan Linux Bible/02. File system.md
+    - Learn Git and Github:
+      - Preface Git and Github : Technology/Catatan Git/index.md
         # - Additional note: Technology/Catatan Linux Bible/99. Additional notes.md
   - Hack The Box:
     - Linux:
@@ -184,6 +186,10 @@ nav:
       - Creating Web Application Using Spring Boot: Web Framework/Spring Boot/02. creating use spring boot.md
       - Querying Data with Spring Boot: Web Framework/Spring Boot/03. querying data with spring boot.md
       - Securing Application With SpringBoot : Web Framework/Spring Boot/04. Securing Application With SpringBoot.md
+      - Securing Application using JWT : Web Framework/Spring Boot/04.1 . Securing Application using JWT.md
+      - Deploy WAR to Tomcat : Web Framework/Spring Boot/98. Deploy War to Tomcat.md
+    - Learn React:
+      - Getting Started : Web Framework/React/index.md
 
   - Data Scient:
     - Preface All About Data : All Bout Data/Index.md
