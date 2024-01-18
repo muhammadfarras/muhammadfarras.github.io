@@ -190,6 +190,7 @@ nav:
       - Deploy WAR to Tomcat : Web Framework/Spring Boot/98. Deploy War to Tomcat.md
     - Learn React:
       - Getting Started : Web Framework/React/index.md
+      - Consuming REST API with React : Web Framwork/React/02. Consuming Rest API With React.md
 
   - Data Scient:
     - Preface All About Data : All Bout Data/Index.md

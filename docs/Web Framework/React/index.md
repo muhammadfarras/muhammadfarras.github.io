@@ -374,68 +374,820 @@ Kita telah melihat sedikit tentang `props` dan `states` saat membahas hierarki d
             );
         }
         ```
-        
 
+### State
+Berbeda dengan Props, nilai dari **State** dapat diperbarui didalam component. **State** dibuat menggunakan _hook function_. Fungsi tersebut membutuhkan satu argumen yaitu nilai awal dari state. Fungsi yang digunakan adalah `#!js useState`, dimana mengembalikan sebuah array dengan dua element. 
 
----
+* **Element pertama** berisikan nama dari state, 
+* dan **element kedua** adalah fungsi yang digunakan untuk memperbarui nilai dari state
 
-sample
+```{.js title="syntax"}
+const [state, setState] = React.useState(intialValue);
 
-!!! quote "Code"
+// atau
+import React, { useState } from 'react';
+const [state, setState] = useState(intialValue);
+```
 
-    === "Example.java"
+Selain itu, hook function hanya bisa digunakan didaalam function component, jika anda mendefinisikannya pada top level maka interpreter akan mengeluarkan error.
 
-        ```js
-
-        ```
-
-        ```{.js title="Output"}
-        
-        ```
-
-!!! quote "Code"
-
-    === "Example.java"
-
-        ```js
-
-        ```
-
-        ```{.java title="Output"}
-        ```
-
-    === "Example.java"
-
-        ```js
-
-        ```
-
-        ```{.java title="Output"}
-
-        ```
+Dibawah ini adalah snippet kode penggunaan state serta penggantian nilai dari variable tersebut menggunakan function kembalian dari `useState`.
 
 !!! quote "Code"
 
-    ```java title=""
+    === "PropsAndState/LearnState.js"
 
+        ```{.js linenums="1" hl_lines="6 17"}
+        import { Accordion,AccordionDetails,AccordionSummary,Typography, Button } from '@mui/material';
+        import React, { useState } from 'react';
+
+        function RootAccordian(props){
+
+            const [waktuState, setWaktuState] = useState("pagi") //(1)
+            
+            return (
+                <Accordion>
+                <AccordionSummary
+                aria-controls="panel1a-content"
+                id="panel1a-header">
+                    <Typography><b>{props.title}</b></Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    
+                    <Button variant="outlined" onClick = {(e)=> setWaktuState("Sore")}> //(2)
+                        Change Waktu
+                    </Button>
+
+                    <Typography>
+                        <ParentComponent waktu={waktuState} />
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+            )
+        }
+        function ParentComponent(props){
+
+            
+
+            return(
+                <>
+                    Selama {props.waktu}
+                </>
+            )
+        }
+
+        export default RootAccordian
+        ```
+
+        1. Create state
+        2. Change sate using function hook
+
+
+#### Define state with objects
+Kita juga dapat mendefinisikan state dengan nilai object.
+
+```js
+const [name, setName] = useState({
+    firstName: 'Muhammad Farras',
+    lastName: 'Ma\'ruf'
+});
+```
+
+
+!!! quote "Code"
+
+    === "ropsAndState/LearnStateValueObject.js"
+
+        ```js
+        import { Accordion,AccordionDetails,AccordionSummary,Typography, Button } from '@mui/material';
+        import React, { useState } from 'react';
+
+        function RootAccordian(props){
+
+            const namaLengkap = {
+                namaDepan : "Muhammad Farras",
+                namaBelakang : "Ma'ruf"
+            }
+            const [nama, setNama] = useState(namaLengkap)
+            
+            return (
+                <Accordion>
+                <AccordionSummary
+                aria-controls="panel1a-content"
+                id="panel1a-header">
+                <Typography><b>{props.title}</b></Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    
+                    <Button variant="outlined" onClick = {(e)=> 
+                        setNama({"namaDepan" : "Faris","namaBelakang" : "Ma'ruf"})}>
+                        Change Name
+                    </Button>
+
+                    <Typography>
+                        <ChildComponent nama={nama} />
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+            )
+        }
+        function ChildComponent(props){
+
+            return(
+                <>
+                    Nama saya : {props.nama.namaDepan} {props.nama.namaBelakang}
+                </>
+            )
+        }
+
+        export default RootAccordian
+        ```
+
+
+#### update partial object
+Jika anda ingin melakukan perubahan sebagian, kita dapat menggunakan spread operator. Contoh dibawah ini menyalin `name` state objeckt dan memperbarui `firstName` dengan Jim.
+```js
+setName({ ...name, firstName: 'Jim' })
+```
+
+### Stateless Component
+
+**React stateless** compenent adalah murni fungsi javascript yang mengambil nilai _props_ sebagai argument dan mengambalikanna dalam bentuk element react.
+
+
+!!! quote "Code"
+
+    === "Contoh"
+
+        ```js
+        function HeaderText(props) {
+        return (
+            <h1>
+                {props.text}
+            </h1>
+            )
+        }
+        export default HeaderText;
+        ```
+
+Contoh `HeaderText` component diatas adalah _pure component_. Sebuah component dikatakan _pure_ (murni) jika nilai kembaliannya secara konsisten sama dengan nilai masukannya. React menyediakan `#!js React.memo()` yang mana memberikan optimasi performa dari pure function components. Dibawah ini kita akan bungkus fungsi pure tersebut dengan `memo`.
+
+!!! quote "Code"
+
+    === "Contoh"
+
+        ```js
+        import React, { memo } from 'react';
+
+        function HeaderText(props) {
+        return (
+            <h1>
+                {props.text}
+            </h1>
+            )
+        }
+        export default memo(HeaderText);
+        ```
+
+Sekarang komponen terender dan akan dihafal. Render selanjutnya, react akan me-render memoizednya jika `props` tidak berubah. Fungsi `#!js React.memo()` memiliki argumen kedua yang mana kita dapat mengkostumasi kondisi render, `#!js arePropsEqual()`.
+
+
+### Conditional Rendering
+Kita dapat menggunakan **conditional statement** untuk merender UI yang berbeda tergantung kondisi tertentu. Sebagai contohh, jika user terautentikasi maka munculkan komponen `#!react <Logout/>` dan `#!react <Logit/>` sebaliknya.
+
+!!! quote "Code"
+
+    === "Traditional if statement"
+
+        ```js
+        function MyComponent(props) {
+            const isLoggedin = props.isLoggedin;
+            if (isLoggedin) {
+                return (
+                    <Logout />
+                )
+            }
+            return (
+                <Login />
+            )
+        }
+        ```
+
+    === "Logical Operator"
+
+        ```js
+        function MyComponent(props) {
+            const isLoggedin = props.isLoggedin;
+                return (
+                <div>
+                    { isLoggedin ? <Logout /> : <Login /> }
+                </div>
+            );
+        }
+        ```
+
+
+## React Hooks
+There are certain important rules for using hooks in React. You should always call hooks
+at the top level in your React function component. You shouldn't call hooks inside loops,
+conditional statements, or nested functions.
+
+Ada beberapa aturan penting saat menggunakan hooks in React. 
+
+1. Kita harus sellalu memanggil hooks pada tole level pada function component.
+2. Kita tidak dapat menggail hooks didalam perulangan
+3. Kita tidak dapat memanggil hooks pada conditional statements
+4. Atau pada nested function
+
+### Usestate
+Kita telah familiar dengan useState dimana telah ada pada catatan [state](#state).
+
+!!! quote "Code"
+
+    === "PropsAndState/LearnStateLearnReactHookUseStateBatching.js"
+
+        ```{.js numlines="1" hl_lines="7-8 10-13 15-19 30-32"}
+        import { Accordion,AccordionDetails,AccordionSummary,Typography, Button } from '@mui/material';
+        import React, { useState, useEffect } from 'react';
+
+        function RootAccordian(props){
+
+            const [countSatu, setCountSatu] = useState(0)
+            const [countDua, setCountDua] = useState(0)
+
+            const countIncreament = () => {
+                setCountSatu(countSatu + 1)
+                setCountDua(countDua -1 )
+            }
+
+            // Called after every render
+            useEffect(() => {
+                console.log('Hello from useEffect')
+                // Membuktikan bahwa useState menggunakan batching
+            })
+            
+            return (
+                <Accordion>
+                <AccordionSummary
+                aria-controls="panel1a-content"
+                id="panel1a-header">
+                <Typography><b>{props.title}</b></Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    
+                    <Button variant="outlined" onClick={countIncreament} >
+                        Change
+                    </Button>
+
+                    <Typography variant="subtitle1" gutterBottom>
+                        {countSatu}
+                    </Typography>
+                    <Typography variant="subtitle1" gutterBottom>
+                        {countDua}
+                    </Typography>
+                </AccordionDetails>
+            </Accordion>
+            )
+        }
+
+        export default RootAccordian
+        ```
+
+Component diatas, ketika kita meng-click button `Change` maka react akan melakukan render. {==Under the hood, react akan me-render ketika terjadi perubahan pada **state**==}
+
+
+!!! info
+    There is also a hook function called that is useReducer recommended to use when you have a complex state
+
+Dimulai dari react versi 18, semua peribahan state akan di kumpulkan terlebih dahulu sebelum dirender, disebut dengan **bactched**. Jika kita tidak ingin batch updates pada kasus tertentu, kita dapat menggunakan pustaka `react-dom` API `#!js flushSync`.
+
+!!! quote "Code"
+
+    === "ropsAndState/LearnReactHookUseStateFlashSync.js"
+
+        ```js
+        const countIncreament = () => {
+
+            flushSync( () => {
+                setCountSatu(countSatu + 1) // Langsung dirender
+            })
+            setCountDua(countDua -1 ) // Render bersamaan dengan batch
+        }
+        ```
+
+### useEfect
+`useEffect` Hook function dapat digunakan untuk melakukan side-effects pada React Function component.
+
+```js
+useEffect(callback, [dependencies])
+```
+
+`callback` function terdiri dari side-effect logic dan `dependencies` adalah opsional array yang berisikan dependencies.
+
+callback function pada `useEffect` akan terpanggil setiap render dilakukan. Sebagaimana yang telah kita lihat pada snipped code pada [Usestate](#Usestate) yang mana akan menampilkan pesan kedalam console log.
+
+Pada kode tersebut, setiap terjadi perubahan pada state `countSatu` dan `countDua`. Namun jika argument kedua diisi dengan state tertentu, maka `useEffect` hanya akan berjalan jika kumpulan state pada argumen kedua berubah.
+
+!!! quote "Code"
+
+    === "ropsAndState/LearnReactHookUseStateFlashSync.js"
+
+        ```js
+        // Called every render and change state countSatu
+        useEffect(() => {
+            console.log('Render flashSync')
+        },[countSatu])
+        ```
+
+        Jika argument opsional diisi dengan array kosong maka callback `useEffect` hanya akan jalan saat render pertama kali.
+
+`useEffect function` juga dapat mengembalikan sebuah function yg mana function tersebut akan berjalan sebelum setiap effect berjalan.
+
+!!! quote "Code"
+
+    === "ropsAndState/LearnReactHookUseStateFlashSync.js"
+
+        ```js
+        // Called every render and change state countSatu
+        useEffect(() => {
+            console.log('Render flashSync')
+
+            return () => {
+                console.log("This will run berfore effect")
+            }
+        },[countSatu])
+        ```
+
+### useRef
+Hook `useRef` mengamblikan mutable object yang dapat digunakan. Syntax inisiasi sebagai berikut
+
+```js
+const ref = useRef(initialValue)
+```
+
+Nilai kembalian ref memliki nilai _current property_ yang dinisiasi dengan nilai yg diberikan pada argument `initialValue`. Namun pada contoh setelah ini, saya tidak langsung menaruh initial valuenya, akan tetapi pertama kita berikan nilai `#!js null` lalu menggunakan JSX element ref property dan memberikan nilari ref tersebut ke useRef. Setelah itu maka input reff akan berisi Input Element dan kita gunakan untuk mengeksekusi focus function pada input tersebut.
+
+!!! quote "Code"
+
+    === "ropsAndState/LearnReactHookUseRef.js"
+
+        ```js
+        import React, {useRef} from "react"
+        import { Accordion,AccordionDetails,AccordionSummary,Typography, Button, Input } from '@mui/material';
+
+        function RootAccordian(props){
+
+            const inputRef = useRef(null)
+
+            const callBackuseRef = (e) => {
+                console.log(inputRef.current)
+                inputRef.current.focus()
+            }
+            
+            return (
+                <Accordion>
+                <AccordionSummary
+                aria-controls="panel1a-content"
+                id="panel1a-header">
+                <Typography><b>{props.title}</b></Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    
+                    
+                    <Button variant="outlined" onClick={callBackuseRef} >
+                        Change
+                    </Button>
+
+                    <Input inputRef={inputRef} id="outlined-basic" label="Outlined" variant="outlined" />
+                    
+                </AccordionDetails>
+            </Accordion>
+            )
+        }
+
+        export default RootAccordian
+        ```
+
+!!! note
+    Pada buku yg digunakan pada catatan ini menggunakan component `#!js <Input/>` dari React, sedangkan pada catatan ini menggunakan Materail UI _v.5.14.20_ (pada saat catatan ini dibuat). Maka dari itu ada perbedaan saat meng-assign `useRef`. Pada MUI menggunakan attribute `#!js inputRef` sendangkan pada buku menggunakan `#!js ref`.
+
+
+
+## Context API
+Membagi data menggunakan Props dapat sangat merepotkan jika komponen kita sangat dalam dan kompleks. Kita harus mengopar data melalui semua komponen hingga ke yg paling dalam. **Context API** datang sebagai penolong, dan fitur tersebut sangat dianjurkan untuk menggunakan data yang global dan dibutuhkan oleh banyak komponen, sebagai contoh adalah {==autentikasi dari user ==}
+
+Context dibuat menggunakan method dan method tersebut membutuhkan satu argumen yang mendifinisikan nilai default-nya. Kita dapat membuat file terpisah khusus untuk context.
+
+!!! quote "Code"
+
+    === "PropsAndState/Contexts/AuthContext.js"
+
+        ```js
+        import React from "react"
+
+        const AuthContext = React.createContext('')
+
+        export { AuthContext }
+        ```
+
+Selanjutnya kita akan menggunakan context provider component untuk membuat context kita dapat diakses oleh component lain. Context provider component memiliki nilai `prop` yang akan dioper agar dapat dikonsumsi oleh component-component.
+
+!!! quote "Code"
+
+    === "PropsAndState/LearnUsingContextAPI.js"
+
+        ```js
+        import React, {useRef} from "react"
+        import { Accordion,AccordionDetails,AccordionSummary,Typography, Button, Input } from '@mui/material'
+        import { AuthContext } from "./Contexts/AuthContext"
+
+        const myVariables = {nama:"Farras",skill:"Spring boot and react",hobby:"Hiking"}
+
+        function RootAccordian(props){
+            const myContext = React.useContext(AuthContext)
+
+            return (
+                <AuthContext.Provider value = {myVariables}>
+
+                    <Accordion>
+                        <AccordionSummary
+                        aria-controls="panel1a-content"
+                        id="panel1a-header">
+                        <Typography><b>{props.title}</b></Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            
+                            <ParentComponent/>
+
+                        </AccordionDetails>
+                    </Accordion>
+
+                </AuthContext.Provider>
+            )
+        }
+
+        // .. cutted, isinya adalah comonent <ParentComponent/> dan child-nya
+        export default RootAccordian
+        ```
+
+Contoh diatas kita membungkus komponen `#!js <ParentComponent/>` didalam `#!js <AuthContext.Provider/>` menggunakan context provider component, sehingga object yang ditampung oleh `#!js myVariables` dapat diakses oleh semua komponen termasuk child dari component `#!js <ParentComponent/>`
+
+
+Sekarag kita dapat mengakses nilai yang disediakan pada semua component anakan tersebut menggunakan syntax berikut. `#!js const namaContext = React.useContext(AuthContext);`
+
+
+!!! quote "Code"
+
+    === "PropsAndState/LearnUsingContextAPI.js"
+
+        ```js
+        // ... lanjutan
+        function ParentComponent(){
+            // We dont need any prop argument here
+            // Need to get Context
+            const myContext = React.useContext(AuthContext)
+            return (
+                <>
+                    <Typography>
+                        My name is {myContext.nama} (from parent)
+                    </Typography>
+                    <ChildComponent/>
+                </>
+            )
+        }
+
+        function ChildComponent(){
+            // We dont need any prop argument here
+            // Need to get Context
+            const myContext = React.useContext(AuthContext)
+            return (
+                <>
+                    <Typography>
+                        My Skill {myContext.skill} (From child 1)
+                    </Typography>
+                    <ChildComponent2/>
+                </>
+            )
+        }
+
+        function ChildComponent2(){
+            // We dont need any prop argument here
+            // Need to get Context
+            const myContext = React.useContext(AuthContext)
+            return (
+                <>
+                    <Typography>
+                        My Hobby {myContext.hobby} (From child 2)
+                    </Typography>
+                </>
+            )
+        }
+
+        export default RootAccordian
+        ```
+
+## Handling list with react
+JavaScript memiliki method `#!js map()` yang mana setara degan method pada java `#!java stream.map()` yang mana mengamblikan nilai baru atas efek dari function pada argumen map.
+
+!!! note
+    The best way to craete object
+
+    ```js
+    function createData(namaLengkap, namaPanggilan, tanggalLahir, umur){
+        return {namaLengkap, namaPanggilan, tanggalLahir, umur}
+    }
     ```
 
-    === "Example 1"
+    Snipped kode diatas akan menghasilkan object dengan keu nama dari return value.
+
+
+!!! quote "Code"
+
+    === "HandlingList/HandlingListWithReact.js"
 
         ```js
+        import React from "react"
+        import { Accordion,AccordionDetails,AccordionSummary,Typography,
+            TableContainer,Table, TableHead, TableRow, TableCell, Paper, TableBody } from '@mui/material'
 
+
+        function createData(namaLengkap, namaPanggilan, tanggalLahir, umur){
+            return {namaLengkap, namaPanggilan, tanggalLahir, umur}
+        }
+
+        const myFamilyData = [
+            createData ("Muhammad Farras Ma'ruf","Farras","27 Desember 1995", 28),
+            createData ("Tania Dwi Haryanti","Tania","11 Juli 1998", 25),
+            createData ("Muhammad Faris Ma'ruf","Farras","05 Juli 2020", 3),
+            createData ("Nu'man Noah Ma'ruf","Farras","13 Oktober 2021", 2),
+            createData ("Rumaysha Hilyah Ma'ruf","Farras","12 Desember 2023", 0),
+        ]
+
+        function RootAccordian(props){
+            
+            return (
+                <Accordion>
+                    <AccordionSummary
+                    aria-controls="panel1a-content"
+                    id="panel1a-header">
+                    <Typography><b>{props.title}</b></Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <CustomizedTables/>
+                    </AccordionDetails>
+                </Accordion>
+            )
+        }
+
+        function CustomizedTables() {   
+            return (
+                <TableContainer component={Paper}>
+                    <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                        <TableHead>
+                            <TableRow>
+                                <TableCell>Nama Lengkap</TableCell>
+                                <TableCell align="left">Nama Panggilan</TableCell>
+                                <TableCell align="left">Tanggal Lahir</TableCell>
+                                <TableCell align="left">Umur</TableCell>
+                            </TableRow>
+                        </TableHead>
+                        <TableBody>
+                        {myFamilyData.map((row,index) => (
+                            <TableRow key={index}>
+                                <TableCell component="th" scope="row">
+                                    {row.namaLengkap}
+                                </TableCell>
+                                <TableCell align="left">{row.namaPanggilan}</TableCell>
+                                <TableCell align="left">{row.tanggalLahir}</TableCell>
+                                <TableCell align="left">{row.umur}</TableCell>
+                            </TableRow>
+                        ))}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
+            );
+        }
+
+        export default RootAccordian
         ```
 
-        ```{.java title="Output"}
+## Handling Event React
+Event handling di React mirip dengan handlin DOM element events. Bedanya dengan HTML handling adalah event naming menggunakan camlecase pada react.
 
-        ```
+!!! quote "Code"
 
-    === "Example 2"
+    === "HandlingEventWithReact/LearnHandlingEvent.js"
 
         ```js
+        import React, {useState} from "react"
+        import { Accordion,AccordionDetails,AccordionSummary,Typography, Snackbar,Button } from '@mui/material';
 
+        function RootAccordian(props){
+
+            const [openSb, setOpenSb] = useState(false)
+
+            const toastDisplay = (event) => {
+
+                // Event prevent default
+                event.preventDefault()
+
+                // Rubah state
+                setOpenSb (true)
+            }
+
+            const handleClose = (event, reason) => {
+
+                console.log("Ints handel close, must set open sb to false")
+                setOpenSb(false);
+            };
+            
+            return (
+                <Accordion>
+                <AccordionSummary
+                aria-controls="panel1a-content"
+                id="panel1a-header">
+                <Typography><b>{props.title}</b></Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    
+                    
+                    <Button variant="outlined" onClick={toastDisplay} >
+                        Change
+                    </Button>
+
+                    <Snackbar
+                        open={openSb}
+                        autoHideDuration={6000}
+                        onClose={handleClose}
+                        message="Toast here"
+                    />
+                </AccordionDetails>
+            </Accordion>
+            )
+        }
+
+        export default RootAccordian
         ```
 
-        ```{.java title="Output"}
+## Handling React Form
 
+!!! quote "Code"
+
+    === "HandlingFormWithReact/LearnHandlingForm.js"
+
+        ```js
+        import React, {useState} from "react"
+        import { Accordion,AccordionDetails,AccordionSummary,Typography, Snackbar,Button,
+            TableContainer,Table, TableHead, TableRow, TableCell, Paper, TableBody,FormControl,TextField, Box, Stack, Grid  } from '@mui/material';
+
+
+
+        // Fucntion to create data
+        function createData(namaLengkap, namaPanggilan, tanggalLahir, umur){
+            return {namaLengkap, namaPanggilan, tanggalLahir, umur}
+        }
+
+        function RootAccordian(props){ 
+            
+            // State menampung array data
+            const [myFamilyData, setMyFamilyData]= useState([])
+
+            // State untuk menampilkan SnackBar
+            const [openSb, setOpenSb] = useState(false)
+
+            // State untuk menamping inputan user
+            const [user,setUser] = useState({
+                namaLengkap : '',
+                namaPanggilan : '',
+                tanggalLahir : '',
+                umur : ''
+            })
+
+
+            // Function to handle changeson input user
+            const inputChange = (event) => {
+                setUser({...user,[event.target.name]:event.target.value})
+            }
+
+            // Function to handle submit event
+            const handleSubmit = (event) => {
+
+                // Event prevent default
+                event.preventDefault()
+
+                // Push myFamily data
+                myFamilyData.push(createData(user.namaLengkap,user.namaPanggilan,user.tanggalLahir,user.umur))
+                
+                // set to reder
+                setMyFamilyData (myFamilyData)
+
+                // Clearn input
+                setUser(createData('','','',''))
+                console.log(user)
+
+                // Rubah state
+                setOpenSb (true)
+            }
+
+            // State to handle close SB
+            const handleClose = (event, reason) => {
+                setOpenSb(false);
+            };
+            
+            return (
+                <Accordion>
+                <AccordionSummary
+                aria-controls="panel1a-content"
+                id="panel1a-header">
+                <Typography><b>{props.title}</b></Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                    
+                    <Box
+                    component="form"
+                    onSubmit={handleSubmit}
+                    sx={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        '& > :not(style)': { m: 1 },
+                    }}>
+
+                        <TextField
+                            onChange={inputChange}
+                            value={user.namaLengkap} // to store value from state
+                            name="namaLengkap"
+                            id="outlined-multiline-flexible"
+                            label="Nama Lengkap"
+                            />
+                        <TextField
+                            onChange={inputChange}
+                            value={user.namaPanggilanp} // to store value from state
+                            name="namaPanggilan"
+                            id="outlined-multiline-flexible"
+                            label="Nama Panggilan"
+                            />
+                        <TextField
+                            onChange={inputChange}
+                            value={user.tanggalLahir} // to store value from state
+                            name="tanggalLahir"
+                            id="outlined-multiline-flexible"
+                            label="Tanggal Lahir"
+                            />
+                        <TextField
+                        name="umur"
+                            value={user.umur} // to store value from state
+                            onChange={inputChange}
+                            id="outlined-multiline-flexible"
+                            label="Umur"
+                        />
+
+
+
+                        <Button type="submit"  variant="outlined">
+                        Change
+                        </Button>
+
+                    </Box>
+
+                    <TableContainer component={Paper}>
+                    <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                        <TableHead>
+                            <TableRow>
+                                <TableCell>Nama Lengkap</TableCell>
+                                <TableCell align="left">Nama Panggilan</TableCell>
+                                <TableCell align="left">Tanggal Lahir</TableCell>
+                                <TableCell align="left">Umur</TableCell>
+                            </TableRow>
+                        </TableHead>
+                        <TableBody>
+                        {myFamilyData.map((row,index) => (
+                            <TableRow key={index}>
+                                <TableCell component="th" scope="row">
+                                    {row.namaLengkap}
+                                </TableCell>
+                                <TableCell align="left">{row.namaPanggilan}</TableCell>
+                                <TableCell align="left">{row.tanggalLahir}</TableCell>
+                                <TableCell align="left">{row.umur}</TableCell>
+                            </TableRow>
+                        ))}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
+
+
+
+                    
+
+                    <Snackbar
+                        open={openSb}
+                        autoHideDuration={6000}
+                        onClose={handleClose}
+                        message="The data added"
+                    />
+                </AccordionDetails>
+            </Accordion>
+            )
+        }
+
+        export default RootAccordian
         ```
