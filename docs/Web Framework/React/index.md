@@ -102,11 +102,11 @@ Sekarang mari kita buat component `App` yang memiliki dua buah element `<h1>` da
 
         function App() {
             return (
-                <React.Fragment>
+                <>
                     <h1>Selamat Sore</h1>
                     <h2>Kertas Pena React</h2>
                     <small><i>Ini menggunakan fragment</i></small>
-                </React.Fragment>
+                <>
             );
         }
 
@@ -182,7 +182,7 @@ Penggunaan arrow function dan pemanggilan serta cara JavaScript-nya
 
 !!! quote "Code"
 
-    === "arrow function"
+    === "Standard function"
 
         ```js
         function call(x){
@@ -192,7 +192,7 @@ Penggunaan arrow function dan pemanggilan serta cara JavaScript-nya
         call(2) // Return : 2
         ```
 
-    === "Standard function"
+    === "Arrow function"
 
         ```js
         arrCal = x => x ** 2
@@ -314,6 +314,10 @@ Kita telah melihat sedikit tentang `props` dan `states` saat membahas hierarki d
 ### Props
 **Props** adalah nilai masukan untuk components dan mereka adlah sebuah mekanisme untuk mengoper data dari parent component ke child component. Props berbentu objek JavaScript, artinya mereka dapat terdiri dari beberapa pasangan key dan value. Selain itu Props _immutable_, nilai tidak didalamnya tidak dapat diubah.
 
+Dibawa ini adalah prop life cycle
+
+![prop life cycle](./aset/prop%20life%20cycle.png)
+
 !!! quote "Code"
 
     === "Pass props from parent to child"
@@ -376,6 +380,11 @@ Kita telah melihat sedikit tentang `props` dan `states` saat membahas hierarki d
         ```
 
 ### State
+
+Dibawah ini adalah state life cycle
+
+![prop life cycle](./aset/state%20life%20cycle.png)
+
 Berbeda dengan Props, nilai dari **State** dapat diperbarui didalam component. **State** dibuat menggunakan _hook function_. Fungsi tersebut membutuhkan satu argumen yaitu nilai awal dari state. Fungsi yang digunakan adalah `#!js useState`, dimana mengembalikan sebuah array dengan dua element. 
 
 * **Element pertama** berisikan nama dari state, 
@@ -1191,3 +1200,73 @@ Event handling di React mirip dengan handlin DOM element events. Bedanya dengan 
 
         export default RootAccordian
         ```
+
+## Callback Handlers in JSX
+
+!!! info
+    **The Road to React** hal 61
+
+![call back handlers](./aset/Call%20back%20handlrs.png)
+
+Informasi hanya dapat dikirim dari komponen tertinggi ke komponen bawahnya menggunakan prop. Namun menggunakan state dan call back handlers kita dapat membuat component atas dan bawah saling berkomunikasi bertukar informasi via prop.
+
+!!! quote "Code"
+
+    === "ComunicateChildToParent/AppTest.js"
+
+        ```js
+        import { useState } from "react"
+
+        function AppTest() {
+
+            const propDate = (event) => {
+                console.log("this is in parent")
+                if (event != undefined){
+                    console.log(event.target.value)
+                    setValueFromChild (event.target.value)
+                }
+                return "kosong"
+                
+            }
+
+            const [valueFromChild, setValueFromChild] = useState (propDate())
+
+            return (
+                <>
+                    <h1>Judul</h1>
+                    <p>Search for (Parent Component): {valueFromChild}</p>
+                    <Search data={propDate}/>
+
+                    
+                </>
+            )
+                
+        }
+
+        const Search = (prop) => {
+            console.log('Ini dari anakan '+prop.data())
+
+            const [searchText, setSearchText] = useState('')
+
+            const changeEvent = (event) => {
+
+                setSearchText(event.target.value)
+
+                prop.data(event)
+            }
+
+            return (
+                <>
+                    <label>Search</label>
+                    <input type="text" id="input" onChange={changeEvent} value={searchText}></input>
+                    <p>Search for (Child Component): {searchText}</p>
+                    <hr></hr>
+                </>
+            )
+        }
+        export default AppTest
+        ```
+
+Kode diatas menggunakan prop dan usestate sebagai cara berkomunukasi ke atas dari child ke parent component.
+
+![data](./aset/using%20call%20back%20handlers.png)

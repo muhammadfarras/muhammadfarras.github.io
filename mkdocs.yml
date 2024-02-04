@@ -178,6 +178,9 @@ nav:
       - Modifiying data and Tabel Structure : DBMS/Catatan MySql/07. Modifiying data and Tabel Structure.md
     - Learn MSSQL:
       - Preface MSSQL : DBMS/Catatan MSSQL/additional-note.md
+    - Learn Postgres SQL:
+      - Catatan Ringkas : DBMS/Catatan PostgreSQL/catatan.md
+      - About JSON : DBMS/Catatan PostgreSQL/psql-json.md
 
   - Framework:
     - Learn Spring Boot:
@@ -190,7 +193,7 @@ nav:
       - Deploy WAR to Tomcat : Web Framework/Spring Boot/98. Deploy War to Tomcat.md
     - Learn React:
       - Getting Started : Web Framework/React/index.md
-      - Consuming REST API with React : Web Framwork/React/02. Consuming Rest API With React.md
+      - Consuming REST API with React : Web Framework/React/02. Consuming Rest API With React.md
 
   - Data Scient:
     - Preface All About Data : All Bout Data/Index.md

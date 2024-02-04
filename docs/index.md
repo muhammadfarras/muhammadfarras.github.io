@@ -23,11 +23,13 @@ hide:
 `Web Framework`
 
 :   * [Spring Boot](Web%20Framework/Spring%20Boot/index.md) :writing_hand_tone1:
+:   * [React JS](Web%20Framework/React/index.md) :writing_hand_tone1:
 
 `About the Data`
 
 :    *  [MySql](DBMS/Catatan%20MySql/index.md) :writing_hand_tone1:
 :    *  [Microsoft SQL](DBMS/Catatan%20MSSQL/additional-note.md) :writing_hand_tone1:
+:    *  [Postgres SQL](DBMS/Catatan%20PostgreSQL/catatan.md) :writing_hand_tone1:
 :    *  [Pandas, Data Wrangling](All%20Bout%20Data/Data%20Wrangling/01.%20Index.md) :writing_hand_tone1:
 
 
