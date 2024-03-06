@@ -109,6 +109,9 @@ nav:
       - Inheritance :
         - Classes, Superclasses, and Subclasses : Programming Language/Java/13. Classes, Superclasses, and Subclasses.md
         - Object the Cosmic Superclass : Programming Language/Java/14. Object the Cosmic Superclass.md
+
+      - Others :
+        - SFTP : Programming Language/Java/others/01. sftp.md
   - Information Technology:
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md
@@ -203,5 +206,9 @@ nav:
       - Numpy Basic:
         - Numpy Ndarray : All Bout Data/Data Wrangling/04. Numpy Ndarray.md
         - Pseudorandom Number Generation : All Bout Data/Data Wrangling/04.2 pseudorandom number generation.md
-  - ASN:
-    - TWK : ASN/01. TWK.md
+  - Others:
+    - Load balancing : Others/Server/load_balancing.md
+    - Installing FSTP & SSH Windows : Others/SFTP & SSH/index.md
+
+  # - ASN:
+  #   - TWK : ASN/01. TWK.md

@@ -1270,3 +1270,4 @@ Informasi hanya dapat dikirim dari komponen tertinggi ke komponen bawahnya mengg
 Kode diatas menggunakan prop dan usestate sebagai cara berkomunukasi ke atas dari child ke parent component.
 
 ![data](./aset/using%20call%20back%20handlers.png)
+
