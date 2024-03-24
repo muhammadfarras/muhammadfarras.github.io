@@ -158,6 +158,8 @@ nav:
     - Tools:
       - reconainsasnce:
         - Gitfive: Hacking/Tools/Gitfive/01. Index.md
+      - Encryption :
+        - Steghide : Hacking/Tools/Steghide/index.md
     - Books/Things:
       - Python Ethical Hacking From Scratch:
         - Preface : Hacking/Python Etichal Hacking from Scratch/01. Index.md
@@ -167,6 +169,9 @@ nav:
         - Protection : Hacking/Python Etichal Hacking from Scratch/05. Protection.md
         - Network Scanning : Hacking/Python Etichal Hacking from Scratch/06. Network scanning.md
         - Introduction to Scapy : Hacking/Python Etichal Hacking from Scratch/07. Introduction to scapy.md
+      - Comptia Security +:
+        - Preface : Hacking/Comptia Security +/01. index.md
+        - Introduction to Security Terminology : Hacking/Comptia Security +/02. Introduction to Security Termonoligy.md
 
   - DBMS:
     - Learn MySql:

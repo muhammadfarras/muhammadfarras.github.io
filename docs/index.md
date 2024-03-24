@@ -44,6 +44,7 @@ hide:
     *   [Sql Injection](Hack%20The%20Box/Sql%20Injection/01.%20Index.md) :white_check_mark:
 
 `Security`
+:   *   [Comptia Security +](hacking/Comptia%20Security%20+/01.%20index.md)
 :   *   [Python Etichal Hacking from Sratch](Hacking/Python%20Etichal%20Hacking%20from%20Scratch/01.%20Index.md) :white_check_mark:
 
 `Tools Hacking`
