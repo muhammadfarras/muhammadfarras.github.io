@@ -48,8 +48,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences:
@@ -157,8 +157,9 @@ nav:
   - Hacking:
     - Preface Hacking : Hacking/Index.md
     - Tools:
-      - reconainsasnce:
+      - OSINT:
         - Gitfive: Hacking/Tools/Gitfive/01. Index.md
+        - Ghunt : Hacking/Tools/Ghunt/01_index.md
       - Encryption :
         - Steghide : Hacking/Tools/Steghide/index.md
     - Books/Things:
@@ -171,7 +172,7 @@ nav:
         - Network Scanning : Hacking/Python Etichal Hacking from Scratch/06. Network scanning.md
         - Introduction to Scapy : Hacking/Python Etichal Hacking from Scratch/07. Introduction to scapy.md
       - Comptia Security +:
-        - Preface : Hacking/Comptia Security +/01. index.md
+        - Preface : Hacking/Comptia Security +/01_index.md
         - Introduction to Security Terminology : Hacking/Comptia Security +/02. Introduction to Security Termonoligy.md
 
   - DBMS:
