@@ -54,6 +54,9 @@ hide:
 `IOT`
 :   *   [Arduino](Technology/Catatan%20Arduino/index.md) :writing_hand_tone1:
 
+`Accounting`
+:   *   [Persiapan Menjadi ASN](Accounting/Akuntansi%20Sektor%20Publik/index.md) :writing_hand_tone1:
+
 `Other`
 
 :   *   [System Analys](Technology/Catatan%20System%20Analys/index.md) :material-cancel:
