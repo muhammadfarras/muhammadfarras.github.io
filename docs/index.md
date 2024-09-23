@@ -4,7 +4,7 @@ hide:
   - footer
   - toc
 ---
-# Catatan Perjalanan Developer
+# Catatan Perjalanan Developer (2024-09-23)
 *Bismillahirrahmanirrahim*
 
 `Legend`
