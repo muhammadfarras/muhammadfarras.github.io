@@ -114,6 +114,9 @@ nav:
       - Others :
         - SFTP : Programming Language/Java/others/01. sftp.md
   - Information Technology:
+    - Learn Graphql:
+      - Preface Grapql : Technology/Catatan Graphql/index.md
+      
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md
       - Introduce to Arduino : Technology/Catatan Arduino/01. What is arduino.md
@@ -218,12 +221,17 @@ nav:
   - Persiapan ASN Keuangan:
     - Dasar : Accounting/Akuntansi Sektor Publik/index.md
     - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md
+    - UU Nomor 1 Tahun 2004 (Perbendaharaan Negara) : Accounting/Undang-Undang/02. UU Nomor 1 Tahun 2004(Perbendaharaan Negara).md
+    - UU Nomor 15 Tahun 2004 (Pemeriksaan Pengelolaan dan Tanggung Jawab Keuangan Negara) : Accounting/Undang-Undang/03. UU Nomor 15 Tahun 2004(Pemeriksaan Pengelolaan dan Tanggung Jawab Keuangan Negara).md
+    - UU Nomor 20 Tahun 2023 (Aparatur Sipil Negara) : Accounting/Undang-Undang/01. UU Nomor 20 Tahun 2023.md
+    - PMK Nomor 62 Tahun 2023 (Perencanaan Anggaran, Pelaksanaan Anggaran, Akuntansi dan Pelaporan Keuangan) : Accounting/Undang-Undang/04. PMK Nomor 62Tahun 2023(Perencanaan Anggaran , Pelaksanaan Anggaran, serta Akuntansi dan Pelaporan Anggaran).md
     - PMK Nomor 188 tahun 2017 (Tatacara Penyaluran Dana SP2D Melalui SPAN) : Accounting/PMK/01. PMK-188-2017.md
     - PP Nomor 71 Tahun 2010 (Standar Akuntansi Pemerintahan) :
       - Peraturan : Accounting/Akuntansi Sektor Publik/peraturan/01. PP 71 TAHUN 2010 TENTANG STANDAR AKUNTANSI PEMERINTAHAN.md
       - Kerangka Konseptual Akuntansi Pemerintah : Accounting/Akuntansi Sektor Publik/peraturan/02. Kerangka Konseptual Akuntansi Pemerintah.md
     - SKB :
       - Pertama : Accounting/SKB/01. Pertama.md
+      - Kedua : Accounting/SKB/02. Kedua.md
   - Others:
     - Load balancing : Others/Server/load_balancing.md
     - Installing FSTP & SSH Windows : Others/SFTP & SSH/index.md

@@ -4,7 +4,7 @@ hide:
   - footer
   - toc
 ---
-# Catatan Perjalanan Developer (2024-09-23)
+# Catatan Perjalanan Developer
 *Bismillahirrahmanirrahim*
 
 `Legend`
@@ -58,7 +58,7 @@ hide:
 :   *   [Persiapan Menjadi ASN](Accounting/Akuntansi%20Sektor%20Publik/index.md) :writing_hand_tone1:
 
 `Other`
-
+:   *   [Graphql](Technology/Catatan%20Graphql/index.md) :white_check_mark:
 :   *   [System Analys](Technology/Catatan%20System%20Analys/index.md) :material-cancel:
 
 <!-- `Agama`
