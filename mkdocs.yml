@@ -69,6 +69,8 @@ extra:
     name: Muhammad Farras Ma'ruf's GitHub
 copyright: Catatan untuk, Muhammad Faris Ma'ruf & Nu'man Noah Ma'ruf 2023
 plugins:
+  - mkdocs-jupyter:
+      include: ["*.ipynb"]
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
@@ -217,6 +219,7 @@ nav:
       - Numpy Basic:
         - Numpy Ndarray : All Bout Data/Data Wrangling/04. Numpy Ndarray.md
         - Pseudorandom Number Generation : All Bout Data/Data Wrangling/04.2 pseudorandom number generation.md
+    - Essential Math for Data Science :  All Bout Data/Math For Data Science/index.ipynb
 
   - Persiapan ASN Keuangan:
     - Dasar : Accounting/Akuntansi Sektor Publik/index.md
