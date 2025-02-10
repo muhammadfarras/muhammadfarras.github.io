@@ -42,3 +42,17 @@ Indexes:
 ```
 
 More information about table definition you can visit [here](https://www.commandprompt.com/education/how-to-describe-a-table-in-postgresql/)
+
+### Backup dan restore
+
+```sql
+pg_dump -U postgres -d DBCM -h 192.168.220.241 > dbcm_muamalat
+```
+
+Backup database `DBCM` pada host `192.168.220.241` dan taruh file output `dbcm_muamalat`
+
+```sql
+psql -U postgres -d "DBCM-Muamalat" -h localhost < dbcm_muamalat
+```
+
+Restore `dbcm_muamalat` pada database `DBCM-Muamalat` pada localhost
