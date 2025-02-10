@@ -55,4 +55,10 @@ Backup database `DBCM` pada host `192.168.220.241` dan taruh file output `dbcm_m
 psql -U postgres -d "DBCM-Muamalat" -h localhost < dbcm_muamalat
 ```
 
-Restore `dbcm_muamalat` pada database `DBCM-Muamalat` pada localhost
+Save `dbcm_muamalat` pada database `DBCM-Muamalat` pada localhost
+
+Namun ada cara lain untuk restore jika cara diatas gagal
+
+```sql
+pg_restore -U [username] -h [hostname] -d [nama database] [nama file toc]
+```
