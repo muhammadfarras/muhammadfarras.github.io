@@ -54,6 +54,9 @@ hide:
 `IOT`
 :   *   [Arduino](Technology/Catatan%20Arduino/index.md) :writing_hand_tone1:
 
+`My Magister`
+:   *   [My Magister](My%20Magister/First%20Semester/Data%20Mining/01.%20Pertama.md)
+
 `Accounting`
 :   *   [Persiapan Menjadi ASN](Accounting/Akuntansi%20Sektor%20Publik/index.md) :writing_hand_tone1:
 
