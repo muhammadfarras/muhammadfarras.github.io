@@ -4,7 +4,7 @@
 
 Kumpulan dari aturan atau sebuah instruksi yang diikuti sata proses kalkulias atau operasi pemecahan masalah  atau sebuah prosedur pemecahan masalah matematika dengan beberapa langkah yang terbatas yang seringkali melibatkan operasi berulang (rekursif).
 
-![alt text](assets/algo.png)
+![alt text](../assets/algo.png)
 
 Pemecahan sebuah masalah dapat diselesaikan dengan banyak algoritma, sebagai contoh, pengurutan bilangan terbesar memliki puluhan cara dalam penyelesaiannya. Hal yang lebih sederhana lagi, dalam membuat mie instan, ada beberapa cara membuatnya, yg membedakan adalah banyak langkah dan waktu yang dimakan hingga mie instan tersebut siap disajikan.
 
@@ -18,7 +18,7 @@ Kebutuhan _times_ dan _space_ suatu algoritma bergantung pada jumlah input masuk
 
 !!! info "Kurva nilai input terhadap waktu pada sebuah algoritma"
 
-    ![alt text](assets/curve%20N%20and%20Times.png)
+    ![alt text](../assets/curve%20N%20and%20Times.png)
 
 Pada gambar diatas, dapat kita lihat kurva dengan tanda panah warna biru menggambarkan algoritma yang paling baik, karena penambahan nilai masukan tidak meningkatkan waktu yang dibutuhkan secara signifikan. Yang mana berbanding terbalik dengan kurva dengan tanda panah warna merah.
 

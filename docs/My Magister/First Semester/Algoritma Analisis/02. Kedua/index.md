@@ -44,9 +44,6 @@ Komplesitas ruang konsep yang berjalan bersamaan dengan komplesitas waktu, jika 
 
 Saya menyingung _Auxiliary space_, berbeda pada setiap bahasa pemprograman dalam ruang digunakan, namun secara umumr adalah ekstra space, tempat penyimpanan sementara yang digunakan oleh sebuah algoritma. Jika di java ada istilah heap dst.
 
-
-
-
 https://www.geeksforgeeks.org/g-fact-86/
 
 https://stackoverflow.com/a/22234095/11021522
@@ -118,6 +115,3 @@ Adalah salah algoritma paling sederhana dalam sebuah pemecahan masalah. Sebagaim
 
     print(recursive(3))
     ```
-
-
-
