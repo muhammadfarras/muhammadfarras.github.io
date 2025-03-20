@@ -23,7 +23,7 @@ Pada gambar diatas, dapat kita lihat kurva dengan tanda panah warna biru menggam
 
 ## Diskusi
 
-!!! question 
+!!! question
     Berikan contoh algoritma perbandingan algoritma yang baik dan yang kurang baik dalam pencarian data dalam database
 
     !!! answer
@@ -95,4 +95,3 @@ Pada gambar diatas, dapat kita lihat kurva dengan tanda panah warna biru menggam
         print("Hasil ",arrayRandom[binary_search(arrayRandom, randomValueExistInList)])
         print("Estimasi Waktu : {:.10f} ".format(time() - now2))
         ```
-        
