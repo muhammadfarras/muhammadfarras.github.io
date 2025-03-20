@@ -1,15 +1,14 @@
 # Brute Force Algorithm dan Exhaustive Search
 
-
 ## Time Complexity
-Record the start time and record the end time and get the running time. Tidak cara baik untuk mengitung, karena hardware yang berbeda-beda ketika mengimplementasi algoritma tersebut, sehingga bukan cara yg tepat untuk mengukur kemampuan algoritma.Maka kita membutuhkan cara yang lebih objektif, yaitu dengan, melihaat banyak langkah yang dilakukan oleh sebuah algoritma dalam menyelesaikan operasinya, inilah yang disebut dengan Time Complexity
 
+Record the start time and record the end time and get the running time. Tidak cara baik untuk mengitung, karena hardware yang berbeda-beda ketika mengimplementasi algoritma tersebut, sehingga bukan cara yg tepat untuk mengukur kemampuan algoritma.Maka kita membutuhkan cara yang lebih objektif, yaitu dengan, melihaat banyak langkah yang dilakukan oleh sebuah algoritma dalam menyelesaikan operasinya, inilah yang disebut dengan Time Complexity
 
 Akan sangat berguna bagi kita jika dapat membandingkan antara performa dari beberapa algoritma untuk mengetahui algoritma mana yang lebih baik. Salah satu cara yang terlintas pertama kali bagi kebanyakan orang adalah dengan cara mencatatan waktu awal proses ketika algoritma berjalan dan waktu ketika proses tersebut berakhir, lalu kita menghitung selisih antara waktu tersebut sehingga menghasilkan waktu yang dipakai oleh algoritma untuk menyelesaikan operasinya. Namun, hal tersebut kurang tepat, karena terpengaruhi oleh variabel lain, yaitu hardware yang digunakan. Bisa jadi algoritma yang paling tidak efesien yang dijalankan pada kompter dengan ram tinggi dan CPU terbaik akan menghasilkan waktu singkat. Maka dari itu kita membutuhkan cara lain yang lebih objektif untuk mengukur performa algoritma. Yaitu dengan cara melihat sebarapa banyak langka yang dilakukan oleh sebuah algoritma dalam menyelesaikan operasinya. Inilah yang disebut dengan Time Complexity.
 
 Lalu menyangkut dengan pentingnya, Time Complexity menjadi patokan yang tidak kalah penting dengan hasil keluaran dari sebuah algoritma, didukung diera big data, pengolahan data pada sebuah proses memnjadi hal yang tidak disepelekan. Maka dari itu menghitung komplesitas waktu sebuah algoritma dalam pengembangan sebuah program menjadi hal yang tidak boleh dikesampingkan.
 
-https://www.udemy.com/course/data-structures-and-algorithms-deep-dive-using-java/learn/lecture/8435752#notes
+[https://www.udemy.com/course/data-structures-and-algorithms-deep-dive-using-java/learn/lecture/8435752#notes](https://www.udemy.com/course/data-structures-and-algorithms-deep-dive-using-java/learn/lecture/8435752#notes)
 
 ## Big On Notation
 
@@ -19,8 +18,7 @@ https://www.udemy.com/course/data-structures-and-algorithms-deep-dive-using-java
 | $O(Log n)$ | log n |
 | $O(n)$ | Linear |
 | $O(n log n)$ |n log-star n|
-| $O(n^2)$ | Quandratic| 
-
+| $O(n^2)$ | Quandratic|
 
 ## Big-O, Big-Tetha, Big-Mega
 
@@ -32,21 +30,18 @@ Theta Notation : Merepresentasikan batas atas dan bawah dari waktu yang dihabisk
 
 Dari 3 notasi diatas dalam menghitung secara objektif waktu yg ditempuh sebuah algoritma, maka Big-O adalah yang paling banyak digunakan untuk menganlisa sebuah algoritma karena menghitung kemungkinan terburuk lebih menjamin dibandingkan dengan the best atau average skenarion.
 
-
-https://www.programiz.com/dsa/asymptotic-notations
-
+[https://www.programiz.com/dsa/asymptotic-notations](https://www.programiz.com/dsa/asymptotic-notations)
 
 ## Space Complexity
 
 Kompleksitas ruang sebuaha algortima adalah jumlah ruang yang dibutuhkan sebuah algoritma berdsarakan besaran nilai masukan. Kompleksitas ruang ini termasuk didalamnya adalah _Auxiliary space_ dan ruang yang digunakan oleh nilai inputan.
 
-Komplesitas ruang konsep yang berjalan bersamaan dengan komplesitas waktu, jika kita membuat sebuah array dengan ukuran *n*, maka ruang yang dibutuhkan adalah O(n), lalu jika nested array atau dua dimensi array maka membutuhkan O(n^2).
+Komplesitas ruang konsep yang berjalan bersamaan dengan komplesitas waktu, jika kita membuat sebuah array dengan ukuran _n_, maka ruang yang dibutuhkan adalah O(n), lalu jika nested array atau dua dimensi array maka membutuhkan O(n^2).
 
 Saya menyingung _Auxiliary space_, berbeda pada setiap bahasa pemprograman dalam ruang digunakan, namun secara umumr adalah ekstra space, tempat penyimpanan sementara yang digunakan oleh sebuah algoritma. Jika di java ada istilah heap dst.
 
-https://www.geeksforgeeks.org/g-fact-86/
-
-https://stackoverflow.com/a/22234095/11021522
+[https://www.geeksforgeeks.org/g-fact-86/](https://www.geeksforgeeks.org/g-fact-86/)
+[https://stackoverflow.com/a/22234095/11021522](https://stackoverflow.com/a/22234095/11021522)
 
 ## Brute Force
 
@@ -61,7 +56,7 @@ Adalah salah algoritma paling sederhana dalam sebuah pemecahan masalah. Sebagaim
 
 1. Memerlukan waktu dan ruang yang lebih besar dibandingkan algoritma yang lebih cerdas.
 
-### Contoh 
+### Contoh
 
 !!! notes "Mencari Elemen Terbesar"
 

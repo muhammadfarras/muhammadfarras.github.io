@@ -15,7 +15,6 @@ Kebutuhan _times_ dan _space_ suatu algoritma bergantung pada jumlah input masuk
 !!! note
     Lihat udemy tentang algortima
 
-
 !!! info "Kurva nilai input terhadap waktu pada sebuah algoritma"
 
     ![alt text](../assets/curve%20N%20and%20Times.png)
@@ -96,3 +95,4 @@ Pada gambar diatas, dapat kita lihat kurva dengan tanda panah warna biru menggam
         print("Hasil ",arrayRandom[binary_search(arrayRandom, randomValueExistInList)])
         print("Estimasi Waktu : {:.10f} ".format(time() - now2))
         ```
+        

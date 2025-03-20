@@ -1,7 +1,5 @@
 # Pekan ketiga
 
-
-
 ## Diskusi
 
 !!! question "pertanyaan"
@@ -42,3 +40,4 @@
     # Apakah sama dengan noah dan password 1357
     # Match
     ```
+    
