@@ -1,14 +1,14 @@
-<!-- # Advance Intelligence System -->
+# Advance Intelligence System
 
 Kecerdasan terkait **Reasoning**, **Learning** dan **Adaptivity**.
 
 Dalam sumber lain, Inteligent system adalah sistem berteknologi canggih yang dapat memahami dan menanggapi lingkungan disekitarnya. [^1]
 
-[^1]: https://www.unr.edu/cse/undergraduates/prospective-students/what-are-intelligent-systems#:~:text=Intelligent%20systems%20are%20technologically%20advanced,to%20Amazon's%20personalized%20shopping%20suggestions.
+[^1]: [https://www.unr.edu/cse/undergraduates/prospective-students/what-are-intelligent-systems#:~:text=Intelligent%20systems%20are%20technologically%20advanced,to%20Amazon's%20personalized%20shopping%20suggestions.](https://www.unr.edu/cse/undergraduates/prospective-students/what-are-intelligent-systems#:~:text=Intelligent%20systems%20are%20technologically%20advanced,to%20Amazon's%20personalized%20shopping%20suggestions.)
 
 Bernada sama dari sumber lain yang saya baca, **Intelligent system** adalah sistem komputer canggih yang dapat _mengumpulkan (**Gathering**)_, _menganalisa (**Analyze**)_ , & dan _menanggapi(**Respond**)_ data yang dikumpulkan yang bersumber dari lingkungan sekitarnya. Sistem tersebut dapat bekerja dan berkomunikasi dengan agent lain seperti pengguna atau sistem lainnya. Selain itu sistem ini juga dapat **belajar dari pengalaman (_experience_)** dan **beradaptasi** berdasarakan data yang diperoleh.[^2]
 
-[^2]: https://www.techtarget.com/whatis/definition/intelligent-system
+[^2]: [https://www.techtarget.com/whatis/definition/intelligent-system](https://www.techtarget.com/whatis/definition/intelligent-system)
 
 ## Diskusi
 

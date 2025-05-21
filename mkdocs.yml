@@ -85,13 +85,18 @@ nav:
   - Kuliah:
     - Semester Awal:
       - Data Mining : 
-        - Pertama : My Magister/First Semester/Data Mining/01. Pertama.md
-        - Kedua (Linear Regression) : My Magister/First Semester/Data Mining/02. Kedua.md
+        - Pertama : My Magister/First Semester/Data Mining/01. Pertama/index.md
+        - Kedua (Linear Regression) : My Magister/First Semester/Data Mining/02. Kedua/index.md
+        - Kedua (Logistic Regression) : My Magister/First Semester/Data Mining/03. Ketiga/index.md
       - Modelling and Optimzation : My Magister/First Semester/Modelling and Optimization/01. Pertama.md
       - Algoritma Analisis :
         - Pertama :  My Magister/First Semester/Algoritma Analisis/01. Kesatu/index.md
         - Kedua :  My Magister/First Semester/Algoritma Analisis/02. Kedua/index.md
         - Ketiga :  My Magister/First Semester/Algoritma Analisis/03. Ketiga/index.md
+      - Sistem komputer Jaringan :
+        - Pertama : My Magister/First Semester/Network/01. Pertama/index.md
+        - Kedua : My Magister/First Semester/Network/02. Kedua/index.md
+        - Ketiga :  My Magister/First Semester/Network/03. Ketiga/index.md
   - Programming Language: 
     - Learn Python:
       - Preface Python: Programming Language/Python/index.md

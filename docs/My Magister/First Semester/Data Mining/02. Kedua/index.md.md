@@ -50,6 +50,7 @@ Walapun _Least of Square_ dipertimbangkan menjadi metode yang terbaik untuk mene
 3. Metode ini sangat rentan dan sensitif terhadap data outliers, data yang sangat signifikan perbedaanya dengan data yang lain.
 
 ### R Square, coefficient of determination
+
 $R^2$ atau biasa disebut dengan _R Square_ atau _Coeffecient of Determintaion_ adalah metode statistik yang memliki tujuan untuk prediksi hasil keluaran atau menguji hipotesa pada dasar informasi yang berkaitan tersebut.
 
 {==R2 menentukan sebarapa bagus hasil yang diamation direplikasi oleh sebuah model, berdasarakan proporso dari total varian yang dijelaskan oleh mode.==}
@@ -68,8 +69,8 @@ Ada beberapa definisi dari $R^2$ dan terkadang memliki arti yang sama. Pada Line
 
 * [Edit Domain](https://orangedatamining.com/blog/managing-data-with-edit-domain/)
 
-
 ## Using python 
+
 https://www.digitalocean.com/community/tutorials/multiple-linear-regression-python
 
 
