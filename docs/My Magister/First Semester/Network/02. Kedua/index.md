@@ -10,4 +10,4 @@ https://www.geeksforgeeks.org/process-in-operating-system/
 
 ## Diskusi
 
-1. OS : Adalah perangkat lunak sistem yang mengatur perangkat lunak, perangkat keras dan menyedikan beberapa service yang program komputer. Kalau bisa saya katakan OS adalah penengah antara perangkat keras dan user dimana OS memastikan aplikasi berjalan secara efektif dan aman.
+1. OS : Adalah perangkat lunak sistem yang mengatur perangkat lunak, perangkat keras dan menyedikan beberapa service yang program komputer. Kalau bisa saya katakan OS adalah penengah antara perangkat keras dan user dimana OS memastikan aplikasi berjalan secara efektif dan aman. OS umumnya ada di berbagai macam platfom Komputer, Smartphone seperti Android yg berdiri di Unix dan ada sekarang seperti ubuntu dan kali linux, serta ada di dalam mini computer seperti arduino.

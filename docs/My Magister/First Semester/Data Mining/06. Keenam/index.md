@@ -9,4 +9,3 @@ Bismillah
 ### Notes
 
 - Untuk menemukan nilai `K` terbaik kita dapat menggunakan {==Grid Search CV==} atau {==_K Fold Cross Validation_==}.
-- 

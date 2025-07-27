@@ -74,3 +74,13 @@ Secara keseluruhan, algoritma divide and conquer adalah salah satu teknik yang s
 * Divide : Membagi masalah menjadi beberapa rupa masalah yang memiliki kemiripan dengan masalah semula namun berukuran lebih kecil.
 * Conquer : Memecahkan masing-masing upa-masalah secara rekursif
 * Combine : Menggabubgkan solusi masning-masing upa-masalah sehingga membentuk solusi masalah semula.
+
+### Objek permasalahan
+
+Masukan atau instances yang berukuran `n` seperti :
+
+* table
+* matriks
+* eksponen
+
+```
