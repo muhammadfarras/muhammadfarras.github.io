@@ -237,7 +237,9 @@ nav:
         - Numpy Ndarray : All Bout Data/Data Wrangling/04. Numpy Ndarray.md
         - Pseudorandom Number Generation : All Bout Data/Data Wrangling/04.2 pseudorandom number generation.md
     - Essential Math for Data Science :  All Bout Data/Math For Data Science/index.ipynb
-    - Chroma (Retrieval Database) : All Bout Data/Chroma/index.md
+    - Chroma (Retrieval Database) : 
+      - Mengenal Chroma : All Bout Data/Chroma/index.md
+      - Persistance Chroma : All Bout Data/Chroma/persistance_chroma.md
   # - Persiapan ASN Keuangan:
   #   - Dasar : Accounting/Akuntansi Sektor Publik/index.md
   #   - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md

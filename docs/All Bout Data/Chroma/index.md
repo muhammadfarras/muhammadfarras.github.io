@@ -7,6 +7,8 @@ Chroma adalah aplikasi sumber terbuka (_open source_) untuk melakukan pencarian 
 
      Menggunakan Chroma kita mendapatkan paket lengkap seperti penyematan, pencarian text lengkap, penyimpanan dokumen, pencarian vektor, penyaringan metadata dan serta multi-modal.
 
+     **Embeddings** adalah operasi untuk membentuk ulang berbagai macam data seperti text, foto, dan data jenis lainnya kedalam bentuk _numerical vector reprensentation_. Hasil dari embeddings berbentuk list of number dan jika semakin besar data maka semakin banyak pula demensi-nya. Tujuanya adalah membuat data tersebut cocok pada berbagai macal tolls AI dan algoritma.
+
 Sumber pemebelajaran dan dokumentasi resmi `Chrome` dapat diakses di [https://www.trychroma.com/](https://www.trychroma.com/)
 
 > Source code hands-on ada pada [https://github.com/muhammadfarras/Learn-Chroma](https://github.com/muhammadfarras/Learn-Chroma)
