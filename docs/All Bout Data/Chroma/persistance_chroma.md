@@ -49,8 +49,8 @@ Seperti contoh sebelumnya kita membutuhkan beberapa library terutama chromadb. S
 
 Selain `Default Embedding function` dan `GoogleAIEmbedding Function`, chorma juga dapat terintegrasi dengan beberapa embedding function, diantaranya; _**saat catatan ini dibuat berikut adalah daftar embedding function yang dapat integrasi dengan Chroma**_
 
-| :----- |:---:|:---:|
 Embedding function | Python | Typescript |
+| :----- |:---:|:---:|
 OpenAI |✓|✓|
 Google Generative AI|✓| ✓|
 Cohere|✓|✓|
@@ -81,7 +81,6 @@ Mistral|✓| ✓|
         }
     )
     ```
-
 
 ## Collection
 
