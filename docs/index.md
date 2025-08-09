@@ -31,6 +31,7 @@ hide:
 :    *  [Microsoft SQL](DBMS/Catatan%20MSSQL/additional-note.md) :writing_hand_tone1:
 :    *  [Postgres SQL](DBMS/Catatan%20PostgreSQL/catatan.md) :writing_hand_tone1:
 :    *  [Pandas, Data Wrangling](All%20Bout%20Data/Data%20Wrangling/01.%20Index.md) :writing_hand_tone1:
+:    *  [Chroma](All%20Bout%20Data/Chroma/index.md) :white_check_mark:
 
 
 `UNIX`
