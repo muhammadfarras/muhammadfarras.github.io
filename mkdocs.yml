@@ -240,6 +240,7 @@ nav:
     - Chroma (Retrieval Database) : 
       - Mengenal Chroma : All Bout Data/Chroma/index.md
       - Persistance Chroma : All Bout Data/Chroma/persistance_chroma.md
+      - Server Mode dan Filtering : All Bout Data/Chroma/client_server_mode.md
   # - Persiapan ASN Keuangan:
   #   - Dasar : Accounting/Akuntansi Sektor Publik/index.md
   #   - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md

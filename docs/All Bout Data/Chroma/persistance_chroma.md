@@ -4,6 +4,10 @@ Pada catatan kali ini kita akan menggunakan beberapa fitur yang disediakan oleh 
 
 Untuk itu, kita perlu menyediakan **API_KEY** yang didapatkan dari [https://aistudio.google.com/prompts/new_chat](https://aistudio.google.com/prompts/new_chat) sehingga kita dapat menggunakan `Gemini 2.5 Flash-Lite`. Sebelumnya, kita menggunakan `DefaultEmbendding function` denga model `ll-MiniLM-L6-v2`. Ji 
 
+Sumber pemebelajaran dan dokumentasi resmi `Chrome` dapat diakses di [https://www.trychroma.com/](https://www.trychroma.com/)
+
+> Source code hands-on ada pada [https://github.com/muhammadfarras/Learn-Chroma](https://github.com/muhammadfarras/Learn-Chroma)
+
 ## Import library
 
 !!! question "Code"
