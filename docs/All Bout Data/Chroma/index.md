@@ -1,6 +1,6 @@
 # Chroma
 
-Chroma adalah aplikasi sumber terbuka (_open source_) untuk melakukan pencarian dan pengambilan (retrieval) databas untuk _Artificial Intelegent Application_.
+Chroma adalah aplikasi sumber terbuka (_open source_) untuk melakukan pencarian dan pengambilan (retrieval) database untuk _Artificial Intelegent Application_.
 
 !!! info
      _Embeddings, Full-text search, Document Storage, vector search, metadata filterring and multimodal_
