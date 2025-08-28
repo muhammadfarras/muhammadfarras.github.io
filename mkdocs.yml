@@ -241,6 +241,10 @@ nav:
       - Mengenal Chroma : All Bout Data/Chroma/index.md
       - Persistance Chroma : All Bout Data/Chroma/persistance_chroma.md
       - Server Mode dan Filtering : All Bout Data/Chroma/client_server_mode.md
+    - LangChain and LangGraph :
+      - Preface LangChain and LangGraph : All Bout Data/LangChainAndLangGraph/index.md
+      - Lab :
+        - Tokenizer : All Bout Data/LangChainAndLangGraph/lab/1_preface_tokenizer.ipynb
   # - Persiapan ASN Keuangan:
   #   - Dasar : Accounting/Akuntansi Sektor Publik/index.md
   #   - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md
