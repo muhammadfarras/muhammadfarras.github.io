@@ -243,8 +243,13 @@ nav:
       - Server Mode dan Filtering : All Bout Data/Chroma/client_server_mode.md
     - LangChain and LangGraph :
       - Preface LangChain and LangGraph : All Bout Data/LangChainAndLangGraph/index.md
+      - Ilmu dasar Learn Language Model : All Bout Data/LangChainAndLangGraph/01.LLM Fundamentals.md
+      - Ilmu dasar LLM dengan Langchain : All Bout Data/LangChainAndLangGraph/02.LLM Fundamentals with Langchain.md
+      - Index (More about the notes): 
+        - Roles on Langchain : All Bout Data/LangChainAndLangGraph/Other Resources/1_roles.md
       - Lab :
         - Tokenizer : All Bout Data/LangChainAndLangGraph/lab/1_preface_tokenizer.ipynb
+        - Lab for Ilmu dasar LLM dengan Langchain : All Bout Data/LangChainAndLangGraph/lab/2_LLM_with_langchain.ipynb
   # - Persiapan ASN Keuangan:
   #   - Dasar : Accounting/Akuntansi Sektor Publik/index.md
   #   - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md
