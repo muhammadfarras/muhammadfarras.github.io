@@ -99,6 +99,9 @@ nav:
         - Pertama : My Magister/First Semester/Network/01. Pertama/index.md
         - Kedua : My Magister/First Semester/Network/02. Kedua/index.md
         - Ketiga :  My Magister/First Semester/Network/03. Ketiga/index.md
+    - Semester Dua:
+      - Statistik dan Data Analisis :
+        - Introduction to Statistics : My Magister/2_Second_semester/Statistika dan Data Analisis/01_satu/01_introduction_to_statistics.md
   - Programming Language: 
     - Learn Python:
       - Preface Python: Programming Language/Python/index.md
