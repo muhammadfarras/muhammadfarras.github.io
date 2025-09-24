@@ -176,29 +176,75 @@ Statistik adalah cabang dari Matematika yang mengubah data kedalam informasi yan
 ### Prosedure pengujian Hipotesa
 
 ``` mermaid
-classDiagram
-  Person <|-- Student
-  Person <|-- Professor
-  Person : +String name
-  Person : +String phoneNumber
-  Person : +String emailAddress
-  Person: +purchaseParkingPass()
-  class Student{
-    +int studentNumber
-    +int averageMark
-    +isEligibleToEnrol()
-    +getSeminarsTaken()
-  }
-  class Professor{
-    +int salary
-  }
-  class Address{
-    +String street
-    +String city
-    +String state
-    +int postalCode
-    +String country
-    -validate()
-    +outputAsLabel()
-  }
+stateDiagram-v2
+    
+    classDef badBadEvent fill:#f00,color:white,font-weight:bold,stroke-width:2px
+
+    s1 : Menentukan hipotesa awal
+    note right of s1
+        Hipotesan nol Ho dan Hipotesa Alternatif H1
+    end note
+    s2 : Menentukan taraf nyata
+    note left of s2
+        Probabilitas menolak Hipotesa
+    end note
+    s3 : Menentukan uji statistik
+    note right of s3
+        Alat uji statistik, uji Z, t, F, X2 dan lain-lain
+    end note
+    s4 : Menentukan daerah keputusan
+    note left of s4
+        Daerah dimana hipotesa nol diterima atau ditolak
+    end note
+    s5 : Mengambil keputusan
+    sOke : Hipotesa diterima
+    sTidak : Hipotesa ditolak
+    [*] --> s1
+    s1 --> s2
+    s2 --> s3
+    s3 --> s4
+    s4 --> s5
+    s5 --> sOke
+    s5 --> sTidak:::badBadEvent
 ```
+
+
+### Apa manfaat dari statistik
+
+Menggunakan statistik kita dapat mengetahui hubungan antar variable, variabel independen dan vari dependend, dimana varial dependen dipengaruhi oleh variabel independen, sehingga kita dapat membuat peralaman secara kita mengetahui fungsi pengaruh variabel2 tersebut dan membuat keputusan atas peralaman.
+
+## Data analisis
+Data analisis adalah proses pengumupulan data, pemodelan, dan analisa data menggunakan berbagai metode statistik. praktik bekerja dengan data untuk mengumpulkan informasi yang berguna yang mana informasi tersebut dapat digunakan untuk pengambilan keputusan.
+
+!!! info "Alur pengolahan data"
+
+    ``` mermaid
+    graph LR
+        A[Mengunpulkan fakta] --> B[Peroses pengambilan data];
+        B --> C[Proses analisis data];
+        C --> D[Deksripsi hasil pengolahan data];
+    ```
+
+## 5 Tipe Analisis
+
+!!! info "Analisa Deskriptif"
+
+    Analisa yang memberikan deksripsi yang terjadi pada masa lalu atau mendeskrpisikan objek dengan narasi ssuai dengan data yang tersedia dan membantu bisnis untuk mengetahui kinerjanya dengan memberikan konteks untuk membantu pemangku kepentingan menafsirkan informasi.
+
+
+!!! info "Analisa Diagnostik"
+
+    Memprediksi apa yang paling mungkin terjadi dimasa depan dan memberikan pengetahuan/wawasan yang dapat ditindaklanjuti berdasarkan informasi tersebut.
+
+
+!!! info "Analisa Predikif"
+
+    Mengambil hasil analisa deksriptif, dan menganalisa lebih lanjut untuk mengetahui informasi mengapa sesuatu terjadi dimasa lalu.
+
+!!! info "Analisa Preskriptif"
+
+    Memberikan informasi mengenai tindakan yang akan memanfaatn prediksi dan membantu tindakan yang mungkin untuk memberikan solusi.
+
+----
+
+_Muhammad Farras Ma'ruf, di Parung, Bogor. 2025-09-24_
