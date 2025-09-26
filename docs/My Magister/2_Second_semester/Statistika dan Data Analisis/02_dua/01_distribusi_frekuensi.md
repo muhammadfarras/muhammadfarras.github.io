@@ -131,6 +131,6 @@ $$k = 1 + 3.33 \log n$$
 
 Dimana `n` adalah banyak data. Tidak diragukan bahwa nilai `k` atau banyaknya kelas adalah bilangan bulat, sehingga kita harus membulatkan bilangan ke atas atau ke bawah.
 
-### Pembuatan Table dan Diagram
+### Langkah-langkah perhitungan dan pembuatan table dan diagram
 
 Please visit this [sections](./assets/241012050065_farras_statistik_dan_data_analisis.ipynb) 
