@@ -104,6 +104,12 @@ nav:
       - Statistik dan Data Analisis :
         - Introduction to Statistics : My Magister/2_Second_semester/Statistika dan Data Analisis/01_satu/01_introduction_to_statistics.md
         - Frequency Distribution : My Magister/2_Second_semester/Statistika dan Data Analisis/02_dua/01_distribusi_frekuensi.md
+        - Ukuran Penyebaran dan Pemusatan Data : My Magister/2_Second_semester/Statistika dan Data Analisis/03_tiga/01_ukuran_penyebaran_pemusatan_data.md
+        - Discrete Probability Distribution : My Magister/2_Second_semester/Statistika dan Data Analisis/04_empat/01_kemungkinan_diskrit.md
+        - Play Ground :
+          - 1 rata-rata distribusi frekuensi : My Magister/2_Second_semester/Statistika dan Data Analisis/03_tiga/assets/1_average_distribusi_frekuensi.ipynb
+      - Advance Inteligent System :
+        - Neural Network : My Magister/2_Second_semester/Advance Inteligent System/03_tiga/1_neural_network.md
   - Programming Language: 
     - Learn Python:
       - Preface Python: Programming Language/Python/index.md
