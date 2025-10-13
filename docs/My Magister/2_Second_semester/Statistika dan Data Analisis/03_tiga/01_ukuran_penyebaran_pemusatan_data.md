@@ -1,4 +1,4 @@
-# Distribusi Probabilitas Diskrit
+# Ukuran penyebaran dan pemusatan data
 
 Bogor, 30 September 2025 (Rumah baru, cerita baru, dan keberkahaan baru...)
 
@@ -34,6 +34,7 @@ $$
 _Case_
 
 |Interval Nilai| $f$ (Frekuensi) |
+| :--: | :--: |
 | 33 - 39 | 2 |
 | 26 - 32 | 8 |
 | 19 - 25 | 19 |
@@ -46,3 +47,49 @@ _Case_
     Rata-rata nilai dari himpunan distirbusi frekuensi datas adalah **18.5**
 
     Jawaban dapat dilihat di [sini](./assets/1_average_distribusi_frekuensi.ipynb)
+
+
+### Median
+Jika ada himpunan data yang diurutkan dari bilangan terkecil hingga terbesar lalu dibagi menjadi dua kelompok; separuh masuk kedalam kelompok rendah dan sebagian masuk kedalam kelompok tinggi. Makak titik tengah yang memisahkan kedua kelompok tersebut disebut dengan _median_. Untuk memngetahui nilai tengah bergantung pada banyaknya data `n`, apakah ganjil atau genap.
+
+!!! info "contoh"
+
+    > Data Ganjil
+
+    1,4,6,8,9, maka nilai tengahanya dapat kita ketetahui dengan $\frac{n}{2} + 0.5$. Contoh ini kita dapat index ke-3, maka nilai tengahanya adalah `6`. 
+
+    > Data Genap
+
+    1,4,6,8,9,10 maka nilai tengahanya dapat kita ketetahui dengan $\frac{n}{2} + 0.5$.  Contoh ini kita dapat index 3.5, , sehingga kita perlu mendapatkan nilai tengah antara index 3 dan index 4, sehingga nilai tengah adalah $\frac{4+8}{2}$, yaitu `7`.
+
+Untuk menghitung median dari data frekuensi berkelompok kita dapat menggunakan persammaan dibawah ini
+
+
+$$
+{Median = B_{b} + (\frac{\frac{N}{2} - fk_{b}}{f_{d}}) \times i}
+$$
+
+
+$B_{b}$ = Batas bawah nyata dari interval yang mengandung median
+$Fk_{b}$ = Frekuensi kumulatif dibawah interval yang mengandung median
+$f_{d}$ = Frekuensi inteval yang mengandung nilai median
+$i$ = Lebar interval
+$N$ = Jumlah frekuensi dalam distribusi
+
+_Case_
+
+|Interval Nilai| $f$ (Frekuensi) |
+| :--: | :--: |
+| 33 - 39 | 2 |
+| 26 - 32 | 8 |
+| 19 - 25 | 19 |
+| 12-18 | 20 |
+| 5 - 11 | 11 |
+
+Hitunglah nilai media dari data diatas
+
+??? question "Jawaban"
+
+    Nilai media dari himpunan distribusi frekuensi diatas adalah **16.67**
+
+    Jawaban dapat dilihat di [sini](./assets/2_median_data_kelompok.ipynb)
