@@ -69,7 +69,7 @@ extra:
   - icon: fontawesome/brands/github
     link: https://github.com/muhammadfarras
     name: Muhammad Farras Ma'ruf's GitHub
-copyright: Catatan untuk, Muhammad Faris Ma'ruf & Nu'man Noah Ma'ruf 2023
+copyright: Catatan untuk, Muhammad Faris Ma'ruf, Nu'man Noah Ma'ruf, Rumaysha Hilyah Maruf  2025
 plugins:
   - mkdocs-jupyter:
       include: ["*.ipynb"]
