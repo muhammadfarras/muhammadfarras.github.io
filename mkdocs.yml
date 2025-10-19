@@ -262,6 +262,9 @@ nav:
       - Lab :
         - Tokenizer : All Bout Data/LangChainAndLangGraph/lab/1_preface_tokenizer.ipynb
         - Lab for Ilmu dasar LLM dengan Langchain : All Bout Data/LangChainAndLangGraph/lab/2_LLM_with_langchain.ipynb
+    - Apache Airflow :
+      - index : All Bout Data/Apache Airflow/index.md
+      - Install and Running : All Bout Data/Apache Airflow/01.pasang_nyalakan.md
   # - Persiapan ASN Keuangan:
   #   - Dasar : Accounting/Akuntansi Sektor Publik/index.md
   #   - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md
