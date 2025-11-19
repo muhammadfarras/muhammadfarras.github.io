@@ -14,3 +14,5 @@ Saya ber ikhitiar, dengan mempelajari salah satu tools yang digunakan dalam bida
 ## Sumber penulisan
 
 * [https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1815s](https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=1815s)
+* [Mastering Airflow Default Arguments: The Secret to Clean and Efficient DAGs | Meduim by Md. Anower Hossain](https://medium.com/@anowerhossain97/mastering-airflow-default-arguments-the-secret-to-clean-and-efficient-dags-e8446a08d28a)
+* [Bash Operator](https://airflow.apache.org/docs/apache-airflow-providers-standard/stable/operators/bash.html#skipping)

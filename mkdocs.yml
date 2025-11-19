@@ -242,6 +242,8 @@ nav:
 
   - Data Scient:
     - Preface All About Data : All Bout Data/Index.md
+    - Statistical Analysis and Data Mining :
+      - Preface : All Bout Data/Data Mining/Statistical Analysis and Data Mining/index.md
     - Learn Data Wrangling:
       - Preface Data wrangling : All Bout Data/Data Wrangling/01. Index.md
       - Built-in Data Structure : All Bout Data/Data Wrangling/03. Built-in Data Structure.md
@@ -265,6 +267,8 @@ nav:
     - Apache Airflow :
       - index : All Bout Data/Apache Airflow/index.md
       - Install and Running : All Bout Data/Apache Airflow/01.pasang_nyalakan.md
+      - Bash Operator : All Bout Data/Apache Airflow/02_dag_bash_operatnor.md
+      - Python Operator : All Bout Data/Apache Airflow/03_dag_python_operator.md
   # - Persiapan ASN Keuangan:
   #   - Dasar : Accounting/Akuntansi Sektor Publik/index.md
   #   - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md
