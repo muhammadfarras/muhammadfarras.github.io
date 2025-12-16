@@ -270,6 +270,8 @@ nav:
       - Bash Operator : All Bout Data/Apache Airflow/02_dag_bash_operatnor.md
       - Python Operator : All Bout Data/Apache Airflow/03_dag_python_operator.md
       - Cross Communication : All Bout Data/Apache Airflow/04_dag_python_xcom.md
+      - Sensors in Airflow : All Bout Data/Apache Airflow/05_dag_sensor.md
+      - SFTP Sensor : All Bout Data/Apache Airflow/06_dag_sftp_sensor.md
   # - Persiapan ASN Keuangan:
   #   - Dasar : Accounting/Akuntansi Sektor Publik/index.md
   #   - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md
