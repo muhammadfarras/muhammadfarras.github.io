@@ -260,11 +260,10 @@ nav:
       - Preface LangChain and LangGraph : All Bout Data/LangChainAndLangGraph/index.md
       - Ilmu dasar Learn Language Model : All Bout Data/LangChainAndLangGraph/01.LLM Fundamentals.md
       - Ilmu dasar LLM dengan Langchain : All Bout Data/LangChainAndLangGraph/02.LLM Fundamentals with Langchain.md
+      - RAG I : All Bout Data/LangChainAndLangGraph/03. RAG-1.md
       - Index (More about the notes): 
         - Roles on Langchain : All Bout Data/LangChainAndLangGraph/Other Resources/1_roles.md
-      - Lab :
-        - Tokenizer : All Bout Data/LangChainAndLangGraph/lab/1_preface_tokenizer.ipynb
-        - Lab for Ilmu dasar LLM dengan Langchain : All Bout Data/LangChainAndLangGraph/lab/2_LLM_with_langchain.ipynb
+      - Daftar Lab : All Bout Data/LangChainAndLangGraph/lab/wrapper_docs.md
     - Apache Airflow :
       - index : All Bout Data/Apache Airflow/index.md
       - Install and Running : All Bout Data/Apache Airflow/01.pasang_nyalakan.md
