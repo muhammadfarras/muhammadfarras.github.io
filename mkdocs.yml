@@ -73,6 +73,7 @@ copyright: Catatan untuk, Muhammad Faris Ma'ruf, Nu'man Noah Ma'ruf, Rumaysha Hi
 plugins:
   - mkdocs-jupyter:
       include: ["*.ipynb"]
+      ignore: ["*/.virtual_documents/*.ipynb","*/.ipynb_checkpoints/*.ipynb"]
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
 
