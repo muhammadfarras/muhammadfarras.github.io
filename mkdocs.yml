@@ -224,6 +224,7 @@ nav:
     - Learn MSSQL:
       - Preface MSSQL : DBMS/Catatan MSSQL/additional-note.md
     - Learn Postgres SQL:
+      - Install pgvector : DBMS/Catatan PostgreSQL/how_to_install_ekstension_of_pgvector.md
       - Catatan Ringkas : DBMS/Catatan PostgreSQL/catatan.md
       - About JSON : DBMS/Catatan PostgreSQL/psql-json.md
 

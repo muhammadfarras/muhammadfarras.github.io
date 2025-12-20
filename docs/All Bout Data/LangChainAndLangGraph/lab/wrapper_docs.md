@@ -7,6 +7,7 @@ Berikut adalah daftar lab pada catatan `LangChain And LangGraph`
 * [Strukturk Output pada LLM](./3_LLM_structured_output.ipynb)
 * [Reusable Prompts](./4_reusable_prompts.ipynb)
 * [Runable Interfaces](./5_runable_interfaces.ipynb)
+* [Document into Text and Embeddings](./6_documents_into_text.ipynb)
 
 ## Daftar Lab additional
 
