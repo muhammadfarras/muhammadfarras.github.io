@@ -262,6 +262,7 @@ nav:
       - Ilmu dasar Learn Language Model : All Bout Data/LangChainAndLangGraph/01.LLM Fundamentals.md
       - Ilmu dasar LLM dengan Langchain : All Bout Data/LangChainAndLangGraph/02.LLM Fundamentals with Langchain.md
       - RAG I : All Bout Data/LangChainAndLangGraph/03. RAG-1.md
+      - RAG II : All Bout Data/LangChainAndLangGraph/04. RAG-2.md
       - Index (More about the notes): 
         - Roles on Langchain : All Bout Data/LangChainAndLangGraph/Other Resources/1_roles.md
       - Daftar Lab : All Bout Data/LangChainAndLangGraph/lab/wrapper_docs.md

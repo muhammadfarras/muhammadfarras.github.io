@@ -8,6 +8,8 @@ Berikut adalah daftar lab pada catatan `LangChain And LangGraph`
 * [Reusable Prompts](./4_reusable_prompts.ipynb)
 * [Runable Interfaces](./5_runable_interfaces.ipynb)
 * [Document into Text and Embeddings](./6_documents_into_text.ipynb)
+* [Document into Text and Embeddings menggunakan PGVectorStore (new API)](./6_documents_into_text_PGvectorStore.ipynb)
+* [Tracking documents change](./6_tracking_change_documents.ipynb)
 
 ## Daftar Lab additional
 
