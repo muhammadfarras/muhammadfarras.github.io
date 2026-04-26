@@ -148,6 +148,9 @@ nav:
   - Information Technology:
     - Learn Graphql:
       - Preface Grapql : Technology/Catatan Graphql/index.md
+    - Learn Apache Kafka:
+      - Preface Apache Kafka: Technology/Catatan Apache Kafka/index.md
+      - Kafka : Technology/Catatan Apache Kafka/1. Kafka.md
       
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md
