@@ -2,14 +2,14 @@
 
 Docker compose dibawah ini akan membuat 6 container dengan detail sebagai berikut
 
-|Name | Host Name | Port between container | Port Outside |
-|:---| :---- | :---- | :---- |
-| controller-1 | controller-1 | 9093 | - |
-| controller-1 | controller-1 | 9093 | - |
-| controller-1 | controller-1 | 9093 | - |
-| broker-1 | `broker-1` | 19092 | 29092 |
-| broker-2 | `broker-2` | 19092 | 29092 |
-| broker-3 | `broker-3` | 19092 | 29092 |
+|Name | Host Name | Port between container | Port Outside | Broker |
+|:---| :---- | :---- | :---- | :---- |
+| controller-1 | controller-1 | 9093 | - | Broker 1 |
+| controller-1 | controller-1 | 9093 | - | Broker 2 |
+| controller-1 | controller-1 | 9093 | - | Broker 3 |
+| broker-1 | `broker-1` | 19092 | 29092 | Broker 4 |
+| broker-2 | `broker-2` | 19092 | 29092 | Broker 5 |
+| broker-3 | `broker-3` | 19092 | 29092 | Broker 6 |
 
 
 ```yml
