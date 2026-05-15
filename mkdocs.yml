@@ -151,6 +151,8 @@ nav:
     - Learn Apache Kafka:
       - Preface Apache Kafka: Technology/Catatan Apache Kafka/index.md
       - Kafka : Technology/Catatan Apache Kafka/1. Kafka.md
+    - Lean Open Telemetry:
+      - index: Technology/Catatan OpenTelemetry/index.md
       
     - Learn Arduino:
       - Preface Arduino : Technology/Catatan Arduino/index.md

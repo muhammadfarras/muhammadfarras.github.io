@@ -19,6 +19,7 @@ hide:
 
 :    * [Python Programming Language](Programming%20Language/Python/index.md) :sleeping:
 :    * [Java Programming Language](Programming%20Language/Java/index.md) :sleeping:
+:    * [Open Telemetry](Technology/Catatan%20OpenTelemetry/index.md) :sleeping:
 
 
 `Web Framework`
