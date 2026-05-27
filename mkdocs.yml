@@ -279,6 +279,8 @@ nav:
       - Cross Communication : All Bout Data/Apache Airflow/04_dag_python_xcom.md
       - Sensors in Airflow : All Bout Data/Apache Airflow/05_dag_sensor.md
       - SFTP Sensor : All Bout Data/Apache Airflow/06_dag_sftp_sensor.md
+    - Evaluating Machine Learning :
+      - index : All Bout Data/Evaluating Machine Learning Model/index.md
   # - Persiapan ASN Keuangan:
   #   - Dasar : Accounting/Akuntansi Sektor Publik/index.md
   #   - Dasar Hukum : Accounting/SKB/99. Rangkuman Dasar Hukum.md

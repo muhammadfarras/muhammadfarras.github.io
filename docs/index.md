@@ -36,6 +36,7 @@ hide:
 :    *  [Chroma](All%20Bout%20Data/Chroma/index.md) :white_check_mark:
 :    *  [LangChain](All%20Bout%20Data/LangChainAndLangGraph/index.md) :writing_hand_tone1:
 :    *  [Apache Airflow](All%20Bout%20Data/Apache%20Airflow/index.md) :writing_hand_tone1:
+:    *  [Evaluating the Machine Learning Model](All%20Bout%20Data/Evaluating%20Machine%20Learning%20Model/index.md) :white_check_mark:
 
 `UNIX`
 
