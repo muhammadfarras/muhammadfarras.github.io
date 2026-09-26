@@ -170,6 +170,8 @@ nav:
     - Learn Git and Github:
       - Preface Git and Github : Technology/Catatan Git/index.md
         # - Additional note: Technology/Catatan Linux Bible/99. Additional notes.md
+    - Learn NGINX:
+      - Catatan Saya : Technology/Catatan NGINX/index.md
   - Hack The Box:
     - Linux:
       - preface Linux HTB: Hack The Box/Catatan Linux HTB/index.md
