@@ -18,6 +18,7 @@ hide:
 `Programming Language`
 
 :    * [Python Programming Language](Programming%20Language/Python/index.md) :sleeping:
+:    * [GO Programming Language](Programming%20Language/Go/index.md) :writing_hand_tone1:
 :    * [Java Programming Language](Programming%20Language/Java/index.md) :sleeping:
 :    * [Open Telemetry](Technology/Catatan%20OpenTelemetry/index.md) :sleeping:
 

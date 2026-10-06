@@ -112,7 +112,9 @@ nav:
           - 1 median distribusi frekuensi : My Magister/2_Second_semester/Statistika dan Data Analisis/03_tiga/assets/2_median_data_kelompok.ipynb
       - Advance Inteligent System :
         - Neural Network : My Magister/2_Second_semester/Advance Inteligent System/03_tiga/1_neural_network.md
-  - Programming Language: 
+  - Programming Language:
+    - Learn Go:
+      - Preface Go : Programming Language/Go/index.md 
     - Learn Python:
       - Preface Python: Programming Language/Python/index.md
       - Data Types: Programming Language/Python/01. Data Types.md
