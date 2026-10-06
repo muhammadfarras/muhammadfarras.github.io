@@ -115,6 +115,8 @@ nav:
   - Programming Language:
     - Learn Go:
       - Preface Go : Programming Language/Go/index.md 
+      - Introduce to Go : Programming Language/Go/01. IntroduceGoLang.md
+      - Predeclared Type : Programming Language/Go/02. PredeclaredTypes.md
     - Learn Python:
       - Preface Python: Programming Language/Python/index.md
       - Data Types: Programming Language/Python/01. Data Types.md
